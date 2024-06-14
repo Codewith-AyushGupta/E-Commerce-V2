@@ -1,0 +1,997 @@
+{
+    "data": {
+      "specialProducts": {
+        "featured": [
+          {
+            "name": "Featured Product 1",
+            "slug": "featured-product-1",
+             "price": [150,120],
+            "ratings": 4.5,
+            "reviews": 10,
+            "stock": 20,
+            "short_description": "This is a short description of Featured Product 1.",
+            "is_featured": true,
+            "is_new": true,
+            "until": "2024-12-31",
+            "discount": 10,
+            "pictures": [
+              {
+                "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2hotz6NMig3r0hODqKlZDBVoKPJbIOhkXbrrHAAhEbcUFANz3xfHI0DGxTDvcRFWgzJLveHiP-XEUUv3pTpodMk0I34m0-OB6Jj8x9NqnLAh9CsKYW-gqLzY",
+                "width": 800,
+                "height": 800
+              }
+            ],
+            "small_pictures": [
+              {
+                "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2hotz6NMig3r0hODqKlZDBVoKPJbIOhkXbrrHAAhEbcUFANz3xfHI0DGxTDvcRFWgzJLveHiP-XEUUv3pTpodMk0I34m0-OB6Jj8x9NqnLAh9CsKYW-gqLzY",
+                "width": 400,
+                "height": 400
+              }
+            ],
+            "categories": [
+              {
+                "name": "Category 1",
+                "slug": "category-1"
+              }
+            ],
+            "variants": [
+              {
+                 "price": [150,120],
+                "sale_price": 90
+              }
+            ]
+          },
+          {
+            "name": "Featured Product 2",
+            "slug": "featured-product-2",
+             "price": [150,120],
+            "ratings": 4.6,
+            "reviews": 12,
+            "stock": 18,
+            "short_description": "This is a short description of Featured Product 2.",
+            "is_featured": true,
+            "is_new": false,
+            "until": "2024-12-31",
+            "discount": 11,
+            "pictures": [
+              {
+                "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2hotz6NMig3r0hODqKlZDBVoKPJbIOhkXbrrHAAhEbcUFANz3xfHI0DGxTDvcRFWgzJLveHiP-XEUUv3pTpodMk0I34m0-OB6Jj8x9NqnLAh9CsKYW-gqLzY",
+                "width": 800,
+                "height": 800
+              }
+            ],
+            "small_pictures": [
+              {
+                "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2hotz6NMig3r0hODqKlZDBVoKPJbIOhkXbrrHAAhEbcUFANz3xfHI0DGxTDvcRFWgzJLveHiP-XEUUv3pTpodMk0I34m0-OB6Jj8x9NqnLAh9CsKYW-gqLzY",
+                "width": 400,
+                "height": 400
+              }
+            ],
+            "categories": [
+              {
+                "name": "Category 2",
+                "slug": "category-2"
+              }
+            ],
+            "variants": [
+              {
+                 "price": [150,120],
+                "sale_price": 99
+              }
+            ]
+          },
+          {
+            "name": "Featured Product 3",
+            "slug": "featured-product-3",
+             "price": [150,120],
+            "ratings": 4.7,
+            "reviews": 15,
+            "stock": 16,
+            "short_description": "This is a short description of Featured Product 3.",
+            "is_featured": true,
+            "is_new": true,
+            "until": "2024-12-31",
+            "discount": 12,
+            "pictures": [
+              {
+                "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2hotz6NMig3r0hODqKlZDBVoKPJbIOhkXbrrHAAhEbcUFANz3xfHI0DGxTDvcRFWgzJLveHiP-XEUUv3pTpodMk0I34m0-OB6Jj8x9NqnLAh9CsKYW-gqLzY",
+                "width": 800,
+                "height": 800
+              }
+            ],
+            "small_pictures": [
+              {
+                "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2hotz6NMig3r0hODqKlZDBVoKPJbIOhkXbrrHAAhEbcUFANz3xfHI0DGxTDvcRFWgzJLveHiP-XEUUv3pTpodMk0I34m0-OB6Jj8x9NqnLAh9CsKYW-gqLzY",
+                "width": 400,
+                "height": 400
+              }
+            ],
+            "categories": [
+              {
+                "name": "Category 3",
+                "slug": "category-3"
+              }
+            ],
+            "variants": [
+              {
+                 "price": [150,120],
+                "sale_price": 108
+              }
+            ]
+          },
+          {
+            "name": "Featured Product 4",
+            "slug": "featured-product-4",
+             "price": [150,120],
+            "ratings": 4.8,
+            "reviews": 20,
+            "stock": 14,
+            "short_description": "This is a short description of Featured Product 4.",
+            "is_featured": true,
+            "is_new": false,
+            "until": "2024-12-31",
+            "discount": 13,
+            "pictures": [
+              {
+                "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2hotz6NMig3r0hODqKlZDBVoKPJbIOhkXbrrHAAhEbcUFANz3xfHI0DGxTDvcRFWgzJLveHiP-XEUUv3pTpodMk0I34m0-OB6Jj8x9NqnLAh9CsKYW-gqLzY",
+                "width": 800,
+                "height": 800
+              }
+            ],
+            "small_pictures": [
+              {
+                "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2hotz6NMig3r0hODqKlZDBVoKPJbIOhkXbrrHAAhEbcUFANz3xfHI0DGxTDvcRFWgzJLveHiP-XEUUv3pTpodMk0I34m0-OB6Jj8x9NqnLAh9CsKYW-gqLzY",
+                "width": 400,
+                "height": 400
+              }
+            ],
+            "categories": [
+              {
+                "name": "Category 4",
+                "slug": "category-4"
+              }
+            ],
+            "variants": [
+              {
+                 "price": [150,120],
+                "sale_price": 117
+              }
+            ]
+          },
+          {
+            "name": "Featured Product 5",
+            "slug": "featured-product-5",
+             "price": [150,120],
+            "ratings": 4.9,
+            "reviews": 25,
+            "stock": 12,
+            "short_description": "This is a short description of Featured Product 5.",
+            "is_featured": true,
+            "is_new": true,
+            "until": "2024-12-31",
+            "discount": 14,
+            "pictures": [
+              {
+                "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2hotz6NMig3r0hODqKlZDBVoKPJbIOhkXbrrHAAhEbcUFANz3xfHI0DGxTDvcRFWgzJLveHiP-XEUUv3pTpodMk0I34m0-OB6Jj8x9NqnLAh9CsKYW-gqLzY",
+                "width": 800,
+                "height": 800
+              }
+            ],
+            "small_pictures": [
+              {
+                "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2hotz6NMig3r0hODqKlZDBVoKPJbIOhkXbrrHAAhEbcUFANz3xfHI0DGxTDvcRFWgzJLveHiP-XEUUv3pTpodMk0I34m0-OB6Jj8x9NqnLAh9CsKYW-gqLzY",
+                "width": 400,
+                "height": 400
+              }
+            ],
+            "categories": [
+              {
+                "name": "Category 5",
+                "slug": "category-5"
+              }
+            ],
+            "variants": [
+              {
+                 "price": [150,120],
+                "sale_price": 126
+              }
+            ]
+          }
+        ],
+        "bestSelling": [
+          {
+            "name": "Best Selling Product 1",
+            "slug": "sample",
+            "price": [200,100],
+            "ratings": 4.8,
+            "reviews": 25,
+            "stock": 15,
+            "short_description": "This is a short description of Best Selling Product 1.",
+            "is_featured": false,
+            "is_new": false,
+            "until": "2024-12-31",
+            "discount": 20,
+            "pictures": [
+              {
+                "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2hotz6NMig3r0hODqKlZDBVoKPJbIOhkXbrrHAAhEbcUFANz3xfHI0DGxTDvcRFWgzJLveHiP-XEUUv3pTpodMk0I34m0-OB6Jj8x9NqnLAh9CsKYW-gqLzY",
+                "width": 800,
+                "height": 800
+              }
+            ],
+            "small_pictures": [
+              {
+                "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2hotz6NMig3r0hODqKlZDBVoKPJbIOhkXbrrHAAhEbcUFANz3xfHI0DGxTDvcRFWgzJLveHiP-XEUUv3pTpodMk0I34m0-OB6Jj8x9NqnLAh9CsKYW-gqLzY",
+                "width": 400,
+                "height": 400
+              }
+            ],
+            "categories": [
+              {
+                "name": "Category 1",
+                "slug": "category-1"
+              }
+            ],
+            "variants": [
+              {
+                "price": [200,100],
+                "sale_price": 180
+              }
+            ]
+          },
+          {
+            "name": "Best Selling Product 2",
+            "slug": "sample",
+            "price": [210,110],
+            "ratings": 4.9,
+            "reviews": 30,
+            "stock": 13,
+            "short_description": "This is a short description of Best Selling Product 2.",
+            "is_featured": false,
+            "is_new": true,
+            "until": "2024-12-31",
+            "discount": 21,
+            "pictures": [
+              {
+                "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2hotz6NMig3r0hODqKlZDBVoKPJbIOhkXbrrHAAhEbcUFANz3xfHI0DGxTDvcRFWgzJLveHiP-XEUUv3pTpodMk0I34m0-OB6Jj8x9NqnLAh9CsKYW-gqLzY",
+                "width": 800,
+                "height": 800
+              }
+            ],
+            "small_pictures": [
+              {
+                "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2hotz6NMig3r0hODqKlZDBVoKPJbIOhkXbrrHAAhEbcUFANz3xfHI0DGxTDvcRFWgzJLveHiP-XEUUv3pTpodMk0I34m0-OB6Jj8x9NqnLAh9CsKYW-gqLzY",
+                "width": 400,
+                "height": 400
+              }
+            ],
+            "categories": [
+              {
+                "name": "Category 2",
+                "slug": "category-2"
+              }
+            ],
+            "variants": [
+              {
+                "price": [210,110],
+                "sale_price": 189
+              }
+            ]
+          },
+          {
+            "name": "Best Selling Product 3",
+            "slug": "sample",
+            "price": [220,120],
+            "ratings": 5.0,
+            "reviews": 35,
+            "stock": 11,
+            "short_description": "This is a short description of Best Selling Product 3.",
+            "is_featured": false,
+            "is_new": false,
+            "until": "2024-12-31",
+            "discount": 22,
+            "pictures": [
+              {
+                "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2hotz6NMig3r0hODqKlZDBVoKPJbIOhkXbrrHAAhEbcUFANz3xfHI0DGxTDvcRFWgzJLveHiP-XEUUv3pTpodMk0I34m0-OB6Jj8x9NqnLAh9CsKYW-gqLzY",
+                "width": 800,
+                "height": 800
+              }
+            ],
+            "small_pictures": [
+              {
+                "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2hotz6NMig3r0hODqKlZDBVoKPJbIOhkXbrrHAAhEbcUFANz3xfHI0DGxTDvcRFWgzJLveHiP-XEUUv3pTpodMk0I34m0-OB6Jj8x9NqnLAh9CsKYW-gqLzY",
+                "width": 400,
+                "height": 400
+              }
+            ],
+            "categories": [
+              {
+                "name": "Category 3",
+                "slug": "category-3"
+              }
+            ],
+            "variants": [
+              {
+                "price": [220,120],
+                "sale_price": 198
+              }
+            ]
+          },
+          {
+            "name": "Best Selling Product 4",
+            "slug": "sample",
+            "price": [220,120],
+            "ratings":
+  
+   4.7,
+            "reviews": 40,
+            "stock": 9,
+            "short_description": "This is a short description of Best Selling Product 4.",
+            "is_featured": false,
+            "is_new": true,
+            "until": "2024-12-31",
+            "discount": 23,
+            "pictures": [
+              {
+                "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2hotz6NMig3r0hODqKlZDBVoKPJbIOhkXbrrHAAhEbcUFANz3xfHI0DGxTDvcRFWgzJLveHiP-XEUUv3pTpodMk0I34m0-OB6Jj8x9NqnLAh9CsKYW-gqLzY",
+                "width": 800,
+                "height": 800
+              }
+            ],
+            "small_pictures": [
+              {
+                "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2hotz6NMig3r0hODqKlZDBVoKPJbIOhkXbrrHAAhEbcUFANz3xfHI0DGxTDvcRFWgzJLveHiP-XEUUv3pTpodMk0I34m0-OB6Jj8x9NqnLAh9CsKYW-gqLzY",
+                "width": 400,
+                "height": 400
+              }
+            ],
+            "categories": [
+              {
+                "name": "Category 4",
+                "slug": "category-4"
+              }
+            ],
+            "variants": [
+              {
+                "price": [220,120],
+                "sale_price": 207
+              }
+            ]
+          },
+          {
+            "name": "Best Selling Product 5",
+            "slug": "sample",
+            "price": [220,120],
+            "ratings": 4.6,
+            "reviews": 45,
+            "stock": 7,
+            "short_description": "This is a short description of Best Selling Product 5.",
+            "is_featured": false,
+            "is_new": false,
+            "until": "2024-12-31",
+            "discount": 24,
+            "pictures": [
+              {
+                "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2hotz6NMig3r0hODqKlZDBVoKPJbIOhkXbrrHAAhEbcUFANz3xfHI0DGxTDvcRFWgzJLveHiP-XEUUv3pTpodMk0I34m0-OB6Jj8x9NqnLAh9CsKYW-gqLzY",
+                "width": 800,
+                "height": 800
+              }
+            ],
+            "small_pictures": [
+              {
+                "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2hotz6NMig3r0hODqKlZDBVoKPJbIOhkXbrrHAAhEbcUFANz3xfHI0DGxTDvcRFWgzJLveHiP-XEUUv3pTpodMk0I34m0-OB6Jj8x9NqnLAh9CsKYW-gqLzY",
+                "width": 400,
+                "height": 400
+              }
+            ],
+            "categories": [
+              {
+                "name": "Category 5",
+                "slug": "category-5"
+              }
+            ],
+            "variants": [
+              {
+                "price": [220,120],
+                "sale_price": 216
+              }
+            ]
+          }
+        ],
+        "topRated": [
+          {
+            "name": "Top Rated Product 1",
+            "slug": "top-rated-product-1",
+            "price": [150,120],
+            "ratings": 4.9,
+            "reviews": 50,
+            "stock": 10,
+            "short_description": "This is a short description of Top Rated Product 1.",
+            "is_featured": true,
+            "is_new": false,
+            "until": "2024-12-31",
+            "discount": 15,
+            "pictures": [
+              {
+                "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2hotz6NMig3r0hODqKlZDBVoKPJbIOhkXbrrHAAhEbcUFANz3xfHI0DGxTDvcRFWgzJLveHiP-XEUUv3pTpodMk0I34m0-OB6Jj8x9NqnLAh9CsKYW-gqLzY",
+                "width": 800,
+                "height": 800
+              }
+            ],
+            "small_pictures": [
+              {
+                "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2hotz6NMig3r0hODqKlZDBVoKPJbIOhkXbrrHAAhEbcUFANz3xfHI0DGxTDvcRFWgzJLveHiP-XEUUv3pTpodMk0I34m0-OB6Jj8x9NqnLAh9CsKYW-gqLzY",
+                "width": 400,
+                "height": 400
+              }
+            ],
+            "categories": [
+              {
+                "name": "Category 1",
+                "slug": "category-1"
+              }
+            ],
+            "variants": [
+              {
+                "price": [150,120],
+                "sale_price": 135
+              }
+            ]
+          },
+          {
+            "name": "Top Rated Product 2",
+            "slug": "top-rated-product-2",
+             "price": [150,120],
+            "ratings": 4.8,
+            "reviews": 45,
+            "stock": 9,
+            "short_description": "This is a short description of Top Rated Product 2.",
+            "is_featured": false,
+            "is_new": true,
+            "until": "2024-12-31",
+            "discount": 16,
+            "pictures": [
+              {
+                "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2hotz6NMig3r0hODqKlZDBVoKPJbIOhkXbrrHAAhEbcUFANz3xfHI0DGxTDvcRFWgzJLveHiP-XEUUv3pTpodMk0I34m0-OB6Jj8x9NqnLAh9CsKYW-gqLzY",
+                "width": 800,
+                "height": 800
+              }
+            ],
+            "small_pictures": [
+              {
+                "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2hotz6NMig3r0hODqKlZDBVoKPJbIOhkXbrrHAAhEbcUFANz3xfHI0DGxTDvcRFWgzJLveHiP-XEUUv3pTpodMk0I34m0-OB6Jj8x9NqnLAh9CsKYW-gqLzY",
+                "width": 400,
+                "height": 400
+              }
+            ],
+            "categories": [
+              {
+                "name": "Category 2",
+                "slug": "category-2"
+              }
+            ],
+            "variants": [
+              {
+                 "price": [150,120],
+                "sale_price": 144
+              }
+            ]
+          },
+          {
+            "name": "Top Rated Product 3",
+            "slug": "top-rated-product-3",
+             "price": [150,120],
+            "ratings": 5.0,
+            "reviews": 60,
+            "stock": 8,
+            "short_description": "This is a short description of Top Rated Product 3.",
+            "is_featured": true,
+            "is_new": false,
+            "until": "2024-12-31",
+            "discount": 17,
+            "pictures": [
+              {
+                "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2hotz6NMig3r0hODqKlZDBVoKPJbIOhkXbrrHAAhEbcUFANz3xfHI0DGxTDvcRFWgzJLveHiP-XEUUv3pTpodMk0I34m0-OB6Jj8x9NqnLAh9CsKYW-gqLzY",
+                "width": 800,
+                "height": 800
+              }
+            ],
+            "small_pictures": [
+              {
+                "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2hotz6NMig3r0hODqKlZDBVoKPJbIOhkXbrrHAAhEbcUFANz3xfHI0DGxTDvcRFWgzJLveHiP-XEUUv3pTpodMk0I34m0-OB6Jj8x9NqnLAh9CsKYW-gqLzY",
+                "width": 400,
+                "height": 400
+              }
+            ],
+            "categories": [
+              {
+                "name": "Category 3",
+                "slug": "category-3"
+              }
+            ],
+            "variants": [
+              {
+                 "price": [150,120],
+                "sale_price": 153
+              }
+            ]
+          },
+          {
+            "name": "Top Rated Product 4",
+            "slug": "top-rated-product-4",
+             "price": [150,120],
+            "ratings": 4.7,
+            "reviews": 55,
+            "stock": 7,
+            "short_description": "This is a short description of Top Rated Product 4.",
+            "is_featured": false,
+            "is_new": true,
+            "until": "2024-12-31",
+            "discount": 18,
+            "pictures": [
+              {
+                "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2hotz6NMig3r0hODqKlZDBVoKPJbIOhkXbrrHAAhEbcUFANz3xfHI0DGxTDvcRFWgzJLveHiP-XEUUv3pTpodMk0I34m0-OB6Jj8x9NqnLAh9CsKYW-gqLzY",
+                "width": 800,
+                "height": 800
+              }
+            ],
+            "small_pictures": [
+              {
+                "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2hotz6NMig3r0hODqKlZDBVoKPJbIOhkXbrrHAAhEbcUFANz3xfHI0DGxTDvcRFWgzJLveHiP-XEUUv3pTpodMk0I34m0-OB6Jj8x9NqnLAh9CsKYW-gqLzY",
+                "width": 400,
+                "height": 400
+              }
+            ],
+            "categories": [
+              {
+                "name": "Category 4",
+                "slug": "category-4"
+              }
+            ],
+            "variants": [
+              {
+                 "price": [150,120],
+                "sale_price": 162
+              }
+            ]
+          },
+          {
+            "name": "Top Rated Product 5",
+            "slug": "top-rated-product-5",
+             "price": [150,120],
+            "ratings": 4.6,
+            "reviews": 65,
+            "stock": 6,
+            "short_description": "This is a short description of Top Rated Product 5.",
+            "is_featured": true,
+            "is_new": false,
+            "until": "2024-12-31",
+            "discount": 19,
+            "pictures": [
+              {
+                "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2hotz6NMig3r0hODqKlZDBVoKPJbIOhkXbrrHAAhEbcUFANz3xfHI0DGxTDvcRFWgzJLveHiP-XEUUv3pTpodMk0I34m0-OB6Jj8x9NqnLAh9CsKYW-gqLzY",
+                "width": 800,
+                "height": 800
+              }
+            ],
+            "small_pictures": [
+              {
+                "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2hotz6NMig3r0hODqKlZDBVoKPJbIOhkXbrrHAAhEbcUFANz3xfHI0DGxTDvcRFWgzJLveHiP-XEUUv3pTpodMk0I34m0-OB6Jj8x9NqnLAh9CsKYW-gqLzY",
+                "width": 400,
+                "height": 400
+              }
+            ],
+            "categories": [
+              {
+                "name": "Category 5",
+                "slug": "category-5"
+              }
+            ],
+            "variants": [
+              {
+                 "price": [150,120],
+                "sale_price": 171
+              }
+            ]
+          }
+        ],
+        "latest": [
+          {
+            "name": "Latest Product 1",
+            "slug": "latest-product-1",
+             "price": [150,120],
+            "ratings": 4.3,
+            "reviews": 20,
+            "stock": 25,
+            "short_description": "This is a short description of Latest Product 1.",
+            "is_featured": false,
+            "is_new": true,
+            "until": "2024-12-31",
+            "discount": 12,
+            "pictures": [
+              {
+                "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2hotz6NMig3r0hODqKlZDBVoKPJbIOhkXbrrHAAhEbcUFANz3xfHI0DGxTDvcRFWgzJLveHiP-XEUUv3pTpodMk0I34m0-OB6Jj8x9NqnLAh9CsKYW-gqLzY",
+                "width": 800,
+                "height": 800
+              }
+            ],
+            "small_pictures": [
+              {
+                "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2hotz6NMig3r0hODqKlZDBVoKPJbIOhkXbrrHAAhEbcUFANz3xfHI0DGxTDvcRFWgzJLveHiP-XEUUv3pTpodMk0I34m0-OB6Jj8x9NqnLAh9CsKYW-gqLzY",
+                "width": 400,
+                "height": 400
+              }
+            ],
+            "categories": [
+              {
+                "name": "Category 1",
+                "slug": "category-1"
+              }
+            ],
+            "variants": [
+              {
+                 "price": [150,120],
+                "sale_price": 108
+              }
+            ]
+          },
+          {
+            "name": "Latest Product 2",
+            "slug": "latest-product-2",
+             "price": [150,120],
+            "ratings": 4.4,
+            "reviews": 22,
+            "stock": 23,
+            "short_description": "This is a short description of Latest Product 2.",
+            "is_featured": true,
+            "is_new": true,
+            "until": "2024-12-31",
+            "discount": 
+  
+  12.5,
+            "pictures": [
+              {
+                "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2hotz6NMig3r0hODqKlZDBVoKPJbIOhkXbrrHAAhEbcUFANz3xfHI0DGxTDvcRFWgzJLveHiP-XEUUv3pTpodMk0I34m0-OB6Jj8x9NqnLAh9CsKYW-gqLzY",
+                "width": 800,
+                "height": 800
+              }
+            ],
+            "small_pictures": [
+              {
+                "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2hotz6NMig3r0hODqKlZDBVoKPJbIOhkXbrrHAAhEbcUFANz3xfHI0DGxTDvcRFWgzJLveHiP-XEUUv3pTpodMk0I34m0-OB6Jj8x9NqnLAh9CsKYW-gqLzY",
+                "width": 400,
+                "height": 400
+              }
+            ],
+            "categories": [
+              {
+                "name": "Category 2",
+                "slug": "category-2"
+              }
+            ],
+            "variants": [
+              {
+                 "price": [150,120],
+                "sale_price": 112.5
+              }
+            ]
+          },
+          {
+            "name": "Latest Product 3",
+            "slug": "latest-product-3",
+             "price": [150,120],
+            "ratings": 4.5,
+            "reviews": 24,
+            "stock": 21,
+            "short_description": "This is a short description of Latest Product 3.",
+            "is_featured": false,
+            "is_new": true,
+            "until": "2024-12-31",
+            "discount": 13,
+            "pictures": [
+              {
+                "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2hotz6NMig3r0hODqKlZDBVoKPJbIOhkXbrrHAAhEbcUFANz3xfHI0DGxTDvcRFWgzJLveHiP-XEUUv3pTpodMk0I34m0-OB6Jj8x9NqnLAh9CsKYW-gqLzY",
+                "width": 800,
+                "height": 800
+              }
+            ],
+            "small_pictures": [
+              {
+                "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2hotz6NMig3r0hODqKlZDBVoKPJbIOhkXbrrHAAhEbcUFANz3xfHI0DGxTDvcRFWgzJLveHiP-XEUUv3pTpodMk0I34m0-OB6Jj8x9NqnLAh9CsKYW-gqLzY",
+                "width": 400,
+                "height": 400
+              }
+            ],
+            "categories": [
+              {
+                "name": "Category 3",
+                "slug": "category-3"
+              }
+            ],
+            "variants": [
+              {
+                 "price": [150,120],
+                "sale_price": 117
+              }
+            ]
+          },
+          {
+            "name": "Latest Product 4",
+            "slug": "latest-product-4",
+             "price": [150,120],
+            "ratings": 4.6,
+            "reviews": 26,
+            "stock": 19,
+            "short_description": "This is a short description of Latest Product 4.",
+            "is_featured": true,
+            "is_new": true,
+            "until": "2024-12-31",
+            "discount": 13.5,
+            "pictures": [
+              {
+                "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2hotz6NMig3r0hODqKlZDBVoKPJbIOhkXbrrHAAhEbcUFANz3xfHI0DGxTDvcRFWgzJLveHiP-XEUUv3pTpodMk0I34m0-OB6Jj8x9NqnLAh9CsKYW-gqLzY",
+                "width": 800,
+                "height": 800
+              }
+            ],
+            "small_pictures": [
+              {
+                "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2hotz6NMig3r0hODqKlZDBVoKPJbIOhkXbrrHAAhEbcUFANz3xfHI0DGxTDvcRFWgzJLveHiP-XEUUv3pTpodMk0I34m0-OB6Jj8x9NqnLAh9CsKYW-gqLzY",
+                "width": 400,
+                "height": 400
+              }
+            ],
+            "categories": [
+              {
+                "name": "Category 4",
+                "slug": "category-4"
+              }
+            ],
+            "variants": [
+              {
+                 "price": [150,120],
+                "sale_price": 121.5
+              }
+            ]
+          },
+          {
+            "name": "Latest Product 5",
+            "slug": "latest-product-5",
+             "price": [150,120],
+            "ratings": 4.7,
+            "reviews": 28,
+            "stock": 17,
+            "short_description": "This is a short description of Latest Product 5.",
+            "is_featured": false,
+            "is_new": true,
+            "until": "2024-12-31",
+            "discount": 14,
+            "pictures": [
+              {
+                "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2hotz6NMig3r0hODqKlZDBVoKPJbIOhkXbrrHAAhEbcUFANz3xfHI0DGxTDvcRFWgzJLveHiP-XEUUv3pTpodMk0I34m0-OB6Jj8x9NqnLAh9CsKYW-gqLzY",
+                "width": 800,
+                "height": 800
+              }
+            ],
+            "small_pictures": [
+              {
+                "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2hotz6NMig3r0hODqKlZDBVoKPJbIOhkXbrrHAAhEbcUFANz3xfHI0DGxTDvcRFWgzJLveHiP-XEUUv3pTpodMk0I34m0-OB6Jj8x9NqnLAh9CsKYW-gqLzY",
+                "width": 400,
+                "height": 400
+              }
+            ],
+            "categories": [
+              {
+                "name": "Category 5",
+                "slug": "category-5"
+              }
+            ],
+            "variants": [
+              {
+                 "price": [150,120],
+                "sale_price": 126
+              }
+            ]
+          }
+        ],
+        "onSale": [
+          {
+            "name": "On Sale Product 1",
+            "slug": "on-sale-product-1",
+             "price": [150,120],
+            "ratings": 4.3,
+            "reviews": 15,
+            "stock": 10,
+            "short_description": "This is a short description of On Sale Product 1.",
+            "is_featured": false,
+            "is_new": false,
+            "until": "2024-12-31",
+            "discount": 18,
+            "pictures": [
+              {
+                "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2hotz6NMig3r0hODqKlZDBVoKPJbIOhkXbrrHAAhEbcUFANz3xfHI0DGxTDvcRFWgzJLveHiP-XEUUv3pTpodMk0I34m0-OB6Jj8x9NqnLAh9CsKYW-gqLzY",
+                "width": 800,
+                "height": 800
+              }
+            ],
+            "small_pictures": [
+              {
+                "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2hotz6NMig3r0hODqKlZDBVoKPJbIOhkXbrrHAAhEbcUFANz3xfHI0DGxTDvcRFWgzJLveHiP-XEUUv3pTpodMk0I34m0-OB6Jj8x9NqnLAh9CsKYW-gqLzY",
+                "width": 400,
+                "height": 400
+              }
+            ],
+            "categories": [
+              {
+                "name": "Category 1",
+                "slug": "category-1"
+              }
+            ],
+            "variants": [
+              {
+                 "price": [150,120],
+                "sale_price": 162
+              }
+            ]
+          },
+          {
+            "name": "On Sale Product 2",
+            "slug": "on-sale-product-2",
+             "price": [150,120],
+            "ratings": 4.4,
+            "reviews": 18,
+            "stock": 8,
+            "short_description": "This is a short description of On Sale Product 2.",
+            "is_featured": true,
+            "is_new": false,
+            "until": "2024-12-31",
+            "discount": 19,
+            "pictures": [
+              {
+                "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2hotz6NMig3r0hODqKlZDBVoKPJbIOhkXbrrHAAhEbcUFANz3xfHI0DGxTDvcRFWgzJLveHiP-XEUUv3pTpodMk0I34m0-OB6Jj8x9NqnLAh9CsKYW-gqLzY",
+                "width": 800,
+                "height": 800
+              }
+            ],
+            "small_pictures": [
+              {
+                "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2hotz6NMig3r0hODqKlZDBVoKPJbIOhkXbrrHAAhEbcUFANz3xfHI0DGxTDvcRFWgzJLveHiP-XEUUv3pTpodMk0I34m0-OB6Jj8x9NqnLAh9CsKYW-gqLzY",
+                "width": 400,
+                "height": 400
+              }
+            ],
+            "categories": [
+              {
+                "name": "Category 2",
+                "slug": "category-2"
+              }
+            ],
+            "variants": [
+              {
+                 "price": [150,120],
+                "sale_price": 171
+              }
+            ]
+          },
+          {
+            "name": "On Sale Product 3",
+            "slug": "on-sale-product-3",
+            "price": [200,100],
+            "ratings": 4.5,
+            "reviews": 20,
+            "stock": 6,
+            "short_description": "This is a short description of On Sale Product 3.",
+            "is_featured": false,
+            "is_new": true,
+            "until": "2024-12-31",
+            "discount": 20,
+            "pictures": [
+              {
+                "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2hotz6NMig3r0hODqKlZDBVoKPJbIOhkXbrrHAAhEbcUFANz3xfHI0DGxTDvcRFWgzJLveHiP-XEUUv3pTpodMk0I34m0-OB6Jj8x9NqnLAh9CsKYW-gqLzY",
+                "width": 800,
+                "height": 800
+              }
+            ],
+            "small_pictures": [
+              {
+                "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2hotz6NMig3r0hODqKlZDBVoKPJbIOhkXbrrHAAhEbcUFANz3xfHI0DGxTDvcRFWgzJLveHiP-XEUUv3pTpodMk0I34m0-OB6Jj8x9NqnLAh9CsKYW-gqLzY",
+                "width": 400,
+                "height": 400
+              }
+            ],
+            "categories": [
+              {
+                "name": "Category 3",
+                "slug": "category-3"
+              }
+            ],
+            "variants": [
+              {
+                "price": [200,100],
+                "sale_price": 180
+              }
+            ]
+          },
+          {
+            "name": "On Sale Product 4",
+            "slug": "on-sale-product-4",
+            "price": [210,110],
+            "ratings": 4.6,
+            "reviews": 22,
+            "stock": 4,
+            "short_description": "This is a short description of On Sale Product 4.",
+            "is_featured": true,
+            "is_new": false,
+            "until": "2024-12-31",
+            "discount": 21,
+            "pictures": [
+              {
+                "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2hotz6NMig3r0hODqKlZDBVoKPJbIOhkXbrrHAAhEbcUFANz3xfHI0DGxTDvcRFWgzJLveHiP-XEUUv3pTpodMk0I34m0-OB6Jj8x9NqnLAh9CsKYW-gqLzY",
+                "width": 800,
+                "height": 800
+              }
+            ],
+            "small_pictures": [
+              {
+                "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2hotz6NMig3r0hODqKlZDBVoKPJbIOhkXbrrHAAhEbcUFANz3xfHI0DGxTDvcRFWgzJLveHiP-XEUUv3pTpodMk0I34m0-OB6Jj8x9NqnLAh9CsKYW-gqLzY",
+                "width": 400,
+                "height": 400
+              }
+            ],
+            "categories": [
+              {
+                "name": "Category 4",
+                "slug": "category-4"
+              }
+            ],
+            "variants": [
+              {
+                "price": [210,110],
+                "sale_price": 189
+              }
+            ]
+          },
+          {
+            "name": "On Sale Product 5",
+            "slug": "on-sale-product-5",
+            "price": [220,120],
+            "ratings": 4.7,
+            "reviews": 25,
+            "stock": 2,
+            "short_description": "This is a short description of On Sale Product 5.",
+            "is_featured": false,
+            "is_new": true,
+            "until": "2024-12-31",
+            "discount": 22,
+            "pictures": [
+              {
+                "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2hotz6NMig3r0hODqKlZDBVoKPJbIOhkXbrrHAAhEbcUFANz3xfHI0DGxTDvcRFWgzJLveHiP-XEUUv3pTpodMk0I34m0-OB6Jj8x9NqnLAh9CsKYW-gqLzY",
+                "width": 800,
+                "height": 800
+              }
+            ],
+            "small_pictures": [
+              {
+                "url": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2hotz6NMig3r0hODqKlZDBVoKPJbIOhkXbrrHAAhEbcUFANz3xfHI0DGxTDvcRFWgzJLveHiP-XEUUv3pTpodMk0I34m0-OB6Jj8x9NqnLAh9CsKYW-gqLzY",
+                "width": 400,
+                "height": 400
+  
+  
+              }
+            ],
+            "categories": [
+              {
+                "name": "Category 5",
+                "slug": "category-5"
+              }
+            ],
+            "variants": [
+              {
+                "price": [220,120],
+                "sale_price": 198
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
