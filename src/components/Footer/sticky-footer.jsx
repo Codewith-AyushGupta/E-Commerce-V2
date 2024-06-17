@@ -42,8 +42,9 @@ export default function StickyFooter() {
             }
         } else {
             if ( stickyFooter ) {
-                stickyFooter.classList.remove( 'fixed' );
-                stickyFooter.setAttribute( 'style', `margin-bottom: -${ height }px` )
+                stickyFooter.classList.add( 'fixed' );
+                // stickyFooter.setAttribute( 'style', `margin-bottom: -${ height }px` )
+                stickyFooter.setAttribute( 'style', "margin-bottom: 0" )
             }
 
             if ( document.querySelector( '.sticky-content-wrapper' ) ) {

@@ -15,7 +15,7 @@ export const mainMenu = {
             },
             {
                 "title": "Horizontal Filter",
-                "url": "#"
+                "url": "product/horizontal"
             },
             {
                 "title": "Navigation Filter",
@@ -24,7 +24,7 @@ export const mainMenu = {
             },
             {
                 "title": "Off-Canvas Filter",
-                "url": "#"
+                "url": "categories/off-canvas-filter"
             },
             {
                 "title": "Right Toggle Sidebar",

@@ -16,6 +16,10 @@ import CommingSoon from './components/pages/CommingSoon';
 import Faqs from './components/pages/faqs';
 import HomePage from './components/homeContent/Home';
 import Cta from './components/pages/element/cta';
+import Horizontal from './components/products/productCategories/Horizontal';
+import ProductHome from './components/products/productDetailPages/productHome';
+import OffCanvansFilter from './components/categories/OffCanvusFilter/Off-Canvas-Filter';
+import TestFile from './components/testFile';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -30,6 +34,10 @@ root.render(
           <Route path="pages/coming-soon" element={<Layout children={<CommingSoon/>}/>} />
           <Route path="pages/faqs" element={<Layout children={<Faqs/>}/>} />
           <Route path="elements/cta" element={<Layout children={<Cta/>}/>} />
+          <Route path="product/horizontal" element={<Layout children={<Horizontal/>}/>} />
+          <Route path="categories/off-canvas-filter" element={<Layout children={<OffCanvansFilter/>}/>} />
+          <Route path="product/default/*" element={<Layout children={<ProductHome/>}/>} />
+          <Route path="test" element={<Layout children={<TestFile/>}/>} />
           <Route path="*" element={<Layout children={<Error404/>}/>} />
         </Routes>
       </Router>

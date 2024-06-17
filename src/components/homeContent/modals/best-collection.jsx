@@ -6,7 +6,7 @@ import ProductTwo from '../../products/ProductTwo';
 import { fadeIn } from '../../utils/keyframes';
 
 function BestCollection( props ) {
-    debugger;
+    // debugger;
     const { products, loading } = props;
 
     return (

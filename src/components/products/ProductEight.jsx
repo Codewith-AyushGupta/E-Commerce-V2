@@ -10,9 +10,8 @@ import { wishlistActions } from '../store/wishlistReducer';
 
 import { toDecimal } from '../utils';
 
-function ProductTwo( props ) {
-    // debugger;
-    const { product, adClass = 'text-center', toggleWishlist, wishlist, addToCart, openQuickview } = props;
+function ProductEight( props ) {
+    const { product, adClass, toggleWishlist, wishlist, addToCart, openQuickview } = props;
 
     // decide if the product is wishlisted
     let isWishlisted;
@@ -42,12 +41,12 @@ function ProductTwo( props ) {
     }
 
     return (
-        <div className={ `product text-left ${ adClass }` }>
+        <div className={ `product product-list ${ adClass } ${ product.variants.length > 0 ? 'product-variable' : '' }` }>
             <figure className="product-media">
-                <ALink href={ `/product/default/note-character-half` }>
+                <ALink href={ `/product/default/${ product.slug }` }>
                     <LazyLoadImage
                         alt="product"
-                        src={  product.pictures[ 0 ].url }
+                        src={ process.env.NEXT_PUBLIC_ASSET_URI + product.pictures[ 0 ].url }
                         threshold={ 500 }
                         effect="opacity"
                         width="300"
@@ -58,7 +57,7 @@ function ProductTwo( props ) {
                         product.pictures.length >= 2 ?
                             <LazyLoadImage
                                 alt="product"
-                                src={  product.pictures[ 1 ].url }
+                                src={ process.env.NEXT_PUBLIC_ASSET_URI + product.pictures[ 1 ].url }
                                 threshold={ 500 }
                                 width="300"
                                 height="338"
@@ -79,25 +78,6 @@ function ProductTwo( props ) {
                                 : <label className="product-label label-sale">Sale</label>
                             : ''
                     }
-                </div>
-
-                <div className="product-action-vertical">
-                    {
-                        product.variants.length > 0 ?
-                            <ALink href={ `/product/default/${ product.slug }` } className="btn-product-icon btn-cart" title="Go to product">
-                                <i className="d-icon-arrow-right"></i>
-                            </ALink> :
-                            <a href="#" className="btn-product-icon btn-cart" title="Add to cart" onClick={ addToCartHandler }>
-                                <i className="d-icon-bag"></i>
-                            </a>
-                    }
-                    <a href="#" className="btn-product-icon btn-wishlist" title={ isWishlisted ? 'Remove from wishlist' : 'Add to wishlist' } onClick={ wishlistHandler }>
-                        <i className={ isWishlisted ? "d-icon-heart-full" : "d-icon-heart" }></i>
-                    </a>
-                </div>
-
-                <div className="product-action">
-                    <ALink href="#" className="btn-product btn-quickview" title="Quick View" onClick={ showQuickviewHandler }>Quick View</ALink>
                 </div>
             </figure>
 
@@ -142,8 +122,27 @@ function ProductTwo( props ) {
 
                     <ALink href={ `/product/default/${ product.slug }` } className="rating-reviews">( { product.reviews } reviews )</ALink>
                 </div>
+
+                <p className="product-short-desc">{ product.short_description }</p>
+
+                <div className="product-action">
+                    {
+                        product.variants.length > 0 ?
+                            <ALink href={ `/product/default/${ product.slug }` } className="btn-product btn-cart" title="Go to product">
+                                <span>Select Options</span>
+                            </ALink> :
+                            <a href="#" className="btn-product btn-cart" title="Add to cart" onClick={ addToCartHandler }>
+                                <i className="d-icon-bag"></i><span>Add to cart</span>
+                            </a>
+                    }
+                    <a href="#" className="btn-product-icon btn-wishlist" title={ isWishlisted ? 'Remove from wishlist' : 'Add to wishlist' } onClick={ wishlistHandler }>
+                        <i className={ isWishlisted ? "d-icon-heart-full" : "d-icon-heart" }></i>
+                    </a>
+
+                    <ALink href="#" className="btn-product-icon btn-quickview" title="Quick View" onClick={ showQuickviewHandler }><i className="d-icon-search"></i></ALink>
+                </div>
             </div>
-        </div>
+        </div >
     )
 }
 
@@ -153,4 +152,4 @@ function mapStateToProps( state ) {
     }
 }
 
-export default connect( mapStateToProps, { toggleWishlist: wishlistActions.toggleWishlist, addToCart: cartActions.addToCart, ...modalActions } )( ProductTwo );
+export default connect( mapStateToProps, { toggleWishlist: wishlistActions.toggleWishlist, addToCart: cartActions.addToCart, ...modalActions } )( ProductEight );

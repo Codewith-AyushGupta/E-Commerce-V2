@@ -1,0 +1,106 @@
+{
+  "data": {
+    "shopSidebarData": {
+      "categories": [
+        {
+          "name": "door",
+          "slug": "note-character-half",
+          "children": [
+            {
+              "name": "Laptops",
+              "slug": "laptops"
+            },
+            {
+              "name": "Smartphones",
+              "slug": "smartphones"
+            }
+          ]
+        },
+        {
+          "name": "Home Appliances",
+          "slug": "home-appliances",
+          "children": [
+            {
+              "name": "Refrigerators",
+              "slug": "refrigerators"
+            },
+            {
+              "name": "Microwaves",
+              "slug": "microwaves"
+            }
+          ]
+        },
+        {
+          "name": "Fashion",
+          "slug": "fashion",
+          "children": [
+            {
+              "name": "Men",
+              "slug": "men"
+            },
+            {
+              "name": "Women",
+              "slug": "women"
+            }
+          ]
+        }
+      ],
+      "featured": [
+        {
+          "slug": "smartphone-x",
+          "name": "Smartphone X",
+          "price": 999.99,
+          "ratings": 4.5,
+          "reviews": 150,
+          "pictures": [
+            {
+              "url": "https://example.com/images/smartphone-x-1.jpg",
+              "width": 600,
+              "height": 600
+            },
+            {
+              "url": "https://example.com/images/smartphone-x-2.jpg",
+              "width": 600,
+              "height": 600
+            }
+          ],
+          "variants": [
+            {
+              "price": 999.99
+            },
+            {
+              "price": 1099.99
+            }
+          ]
+        },
+        {
+          "slug": "laptop-pro",
+          "name": "Laptop Pro",
+          "price": 1299.99,
+          "ratings": 4.7,
+          "reviews": 200,
+          "pictures": [
+            {
+              "url": "https://example.com/images/laptop-pro-1.jpg",
+              "width": 800,
+              "height": 600
+            },
+            {
+              "url": "https://example.com/images/laptop-pro-2.jpg",
+              "width": 800,
+              "height": 600
+            }
+          ],
+          "variants": [
+            {
+              "price": 1299.99
+            },
+            {
+              "price": 1499.99
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

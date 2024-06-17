@@ -83,7 +83,7 @@ function IntroSection() {
                                 </Reveal>
 
                                 <Reveal keyframes={ fadeInUpShorter } duration={ 1200 } delay={ 1100 }>
-                                    <ALink href="/shop" className="btn btn-white btn-rounded">Shop now</ALink>
+                                    <ALink href="/product/default/note-character-half" className="btn btn-white btn-rounded">Shop now</ALink>
                                 </Reveal>
                             </div>
                         </div>
@@ -111,7 +111,7 @@ function IntroSection() {
                                 <h3 className="banner-title text-white font-weight-bold ls-md">
                                     Women's Sale
                             </h3>
-                                <ALink href="/shop"
+                                <ALink href="/product/default/note-character-half"
                                     className="btn btn-white btn-link btn-underline font-weight-semi-bold">Shop
                                 Now<i className="d-icon-arrow-right"></i></ALink>
                             </div>
@@ -140,7 +140,7 @@ function IntroSection() {
                                 <h3 className="banner-title text-white font-weight-bold ls-md">
                                     New Sneaker
                             </h3>
-                                <ALink href="/shop"
+                                <ALink href="/product/default/note-character-half"
                                     className="btn btn-white btn-link btn-underline btn-white font-weight-semi-bold">Shop
                                 Now<i className="d-icon-arrow-right"></i></ALink>
                             </div>
