@@ -236,7 +236,7 @@ export const mainMenu = {
     "element": [
         {
             "title": "Products",
-            "url": "#"
+            "url": "/product/default/note-character-half"
         },
         {
             "title": "Typography",
