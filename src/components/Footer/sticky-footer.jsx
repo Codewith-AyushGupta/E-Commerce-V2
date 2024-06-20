@@ -42,9 +42,8 @@ export default function StickyFooter() {
             }
         } else {
             if ( stickyFooter ) {
-                stickyFooter.classList.add( 'fixed' );
-                // stickyFooter.setAttribute( 'style', `margin-bottom: -${ height }px` )
-                stickyFooter.setAttribute( 'style', "margin-bottom: 0" )
+                stickyFooter.classList.remove( 'fixed' );
+                stickyFooter.setAttribute( 'style', `margin-bottom: -${ height }px` )
             }
 
             if ( document.querySelector( '.sticky-content-wrapper' ) ) {
@@ -64,7 +63,7 @@ export default function StickyFooter() {
                 <i className="d-icon-home"></i>
                 <span>Home</span>
             </ALink>
-            <ALink href="/shop" className="sticky-link">
+            <ALink href="/shop/banner-sidebar" className="sticky-link">
                 <i className="d-icon-volume"></i>
                 <span>Categories</span>
             </ALink>

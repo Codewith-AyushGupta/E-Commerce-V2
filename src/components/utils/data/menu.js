@@ -3,63 +3,59 @@ export const mainMenu = {
         "variation1": [
             {
                 "title": "Banner With Sidebar",
-                "url": "#"
+                "url": "shop/banner-sidebar"
             },
             {
                 "title": "Boxed Banner",
-                "url": "#"
+                "url": "shop/boxed-banner"
             },
             {
                 "title": "Infinite Ajaxscroll",
-                "url": "#"
+                "url": "shop/infinite-scroll"
             },
             {
                 "title": "Horizontal Filter",
-                "url": "product/horizontal"
+                "url": "shop/horizontal-filter"
             },
             {
                 "title": "Navigation Filter",
-                "url": "#",
+                "url": "shop/navigation-filter",
                 "hot": true
             },
             {
                 "title": "Off-Canvas Filter",
-                "url": "categories/off-canvas-filter"
+                "url": "shop/off-canvas-filter"
             },
             {
                 "title": "Right Toggle Sidebar",
-                "url": "#"
+                "url": "shop/right-sidebar"
             }
         ],
         "variation2": [
             {
                 "title": "3 Columns Mode",
-                "url": "#",
+                "url": "shop/grid/3cols",
                 "new": true
             },
             {
                 "title": "4 Columns Mode",
-                "url": "#"
+                "url": "shop/grid/4cols"
             },
             {
                 "title": "5 Columns Mode",
-                "url": "#"
+                "url": "shop/grid/5cols"
             },
             {
                 "title": "6 Columns Mode",
-                "url": "#"
+                "url": "shop/grid/6cols"
             },
             {
                 "title": "7 Columns Mode",
-                "url": "#"
+                "url": "shop/grid/7cols"
             },
             {
                 "title": "8 Columns Mode",
-                "url": "#"
-            },
-            {
-                "title": "List Mode",
-                "url": "#"
+                "url": "shop/grid/8cols"
             }
         ]
     },
@@ -67,71 +63,71 @@ export const mainMenu = {
         "pages": [
             {
                 "title": "Simple Product",
-                "url": "#"
+                "url": "product/default/note-character-half"
             },
             {
                 "title": "Variable Product",
-                "url": "#"
+                "url": "product/default/note-character-half"
             },
             {
                 "title": "Sale Product",
-                "url": "#"
+                "url": "product/default/note-character-half"
             },
             {
                 "title": "Feature & On Sale",
-                "url": "#"
+                "url": "product/default/sports-tops"
             },
             {
                 "title": "With Left Sidebar",
-                "url": "#"
+                "url": "product/left-sidebar/note-character-half"
             },
             {
                 "title": "With Right Sidebar",
-                "url": "#"
+                "url": "product/right-sidebar/note-character-half"
             },
             {
                 "title": "Add Cart Sticky",
-                "url": "#",
+                "url": "product/sticky-cart/note-character-half",
                 "hot": true
             },
             {
                 "title": "Tab Inside",
-                "url": "#"
+                "url": "product/tab-inside/note-character-half"
             }
         ],
         "layout": [
             {
                 "title": "Grid Images",
-                "url": "#",
+                "url": "product/grid/note-character-half",
                 "new": true
             },
             {
                 "title": "Masonry",
-                "url": "#"
+                "url": "product/masonry/fashionable-hooded-coat"
             },
             {
                 "title": "Gallery Type",
-                "url": "#"
+                "url": "product/gallery/note-character-half"
             },
             {
                 "title": "Full Width Layout",
-                "url": "#"
+                "url": "product/full-width/note-character-half"
             },
             {
                 "title": "Sticky Info",
-                "url": "#"
+                "url": "product/sticky-info/note-character-half"
             },
             {
                 "title": "Left & Right Sticky",
-                "url": "#"
+                "url": "product/sticky-both/note-character-half"
             },
             {
                 "title": "Horizontal Thumb",
-                "url": "#"
+                "url": "product/horizontal/note-character-half"
             },
             {
                 "title": "Build Your Own",
-                "url": "#"
+                "url": ""
             }
         ]
     },
@@ -164,119 +160,119 @@ export const mainMenu = {
     "blog": [
         {
             "title": "Classic",
-            "url": "#"
+            "url": "blog/classic"
         },
         {
             "title": "Listing",
-            "url": "#"
+            "url": "blog/listing"
         },
         {
             "title": "Grid",
-            "url": "#",
+            "url": "blog/grid/2cols",
             "subPages": [
                 {
                     "title": "Grid 2 columns",
-                    "url": "#"
+                    "url": "blog/grid/2cols"
                 },
                 {
                     "title": "Grid 3 columns",
-                    "url": "#"
+                    "url": "blog/grid/3cols"
                 },
                 {
                     "title": "Grid 4 columns",
-                    "url": "#"
+                    "url": "blog/grid/4cols"
                 },
                 {
                     "title": "Grid sidebar",
-                    "url": "#"
+                    "url": "blog/grid/sidebar"
                 }
             ]
         },
         {
             "title": "Masonry",
-            "url": "#",
+            "url": "blog/masonry/2cols",
             "subPages": [
                 {
                     "title": "Masonry 2 columns",
-                    "url": "#"
+                    "url": "blog/masonry/2cols"
                 },
                 {
                     "title": "Masonry 3 columns",
-                    "url": "#"
+                    "url": "blog/masonry/3cols"
                 },
                 {
                     "title": "Masonry 4 columns",
-                    "url": "#"
+                    "url": "blog/masonry/4cols"
                 },
                 {
                     "title": "Masonry sidebar",
-                    "url": "#"
+                    "url": "blog/masonry/sidebar"
                 }
             ]
         },
         {
             "title": "Mask",
-            "url": "#",
+            "url": "blog/mask/grid",
             "subPages": [
                 {
                     "title": "Blog mask grid",
-                    "url": "#"
+                    "url": "blog/mask/grid"
                 },
                 {
                     "title": "Blog mask masonry",
-                    "url": "#"
+                    "url": "blog/mask/masonry"
                 }
             ]
         },
         {
             "title": "Single Post",
-            "url": "#"
+            "url": "blog/single/pellentesque-fusce-suscipit"
         }
     ],
     "element": [
         {
             "title": "Products",
-            "url": "/product/default/note-character-half"
+            "url": "elements/products"
         },
         {
             "title": "Typography",
-            "url": "#"
+            "url": "elements/typography"
         },
         {
             "title": "Titles",
-            "url": "#"
+            "url": "elements/titles"
         },
         {
             "title": "Product Category",
-            "url": "#"
+            "url": "elements/product-category"
         },
         {
             "title": "Buttons",
-            "url": "#"
+            "url": "elements/buttons"
         },
         {
             "title": "Accordions",
-            "url": "#"
+            "url": "elements/accordions"
         },
         {
             "title": "Alert & Notification",
-            "url": "#"
+            "url": "elements/alerts"
         },
         {
             "title": "Tabs",
-            "url": "#"
+            "url": "elements/tabs"
         },
         {
             "title": "Testimonials",
-            "url": "#"
+            "url": "elements/testimonials"
         },
         {
             "title": "Blog Posts",
-            "url": "#"
+            "url": "elements/blog-posts"
         },
         {
             "title": "Instagrams",
-            "url": "#"
+            "url": "elements/instagrams"
         },
         {
             "title": "Call to Action",
@@ -284,11 +280,11 @@ export const mainMenu = {
         },
         {
             "title": "Icon Boxes",
-            "url": "#"
+            "url": "elements/icon-boxes"
         },
         {
             "title": "Icons",
-            "url": "#"
+            "url": "elements/icons"
         }
     ]
 }

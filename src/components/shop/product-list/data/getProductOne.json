@@ -1,0 +1,346 @@
+{
+    "products": {
+        "data": [
+            {
+                "name": "sort",
+                "slug": "note-character-half",
+                "price": [
+                    321,
+                    200
+                ],
+                "ratings": 3.18,
+                "reviews": 721,
+                "stock": 64,
+                "short_description": "Information situation attack case sell.",
+                "is_featured": true,
+                "is_new": true,
+                "until": "2024-02-25",
+                "discount": 0.03,
+                "pictures": [
+                    {
+                        "url": "https://d-themes.com/wordpress/riode/elements/wp-content/uploads/sites/3/2021/06/1-19.jpg",
+                        "width": 787,
+                        "height": 501
+                    },
+                    {
+                        "url": "https://d-themes.com/wordpress/riode/elements/wp-content/uploads/sites/3/2021/06/1-19.jpg",
+                        "width": 451,
+                        "height": 615
+                    },
+                    {
+                        "url": "https://d-themes.com/wordpress/riode/elements/wp-content/uploads/sites/3/2021/06/1-19.jpg",
+                        "width": 566,
+                        "height": 707
+                    },
+                    {
+                        "url": "https://d-themes.com/wordpress/riode/elements/wp-content/uploads/sites/3/2021/06/1-19.jpg",
+                        "width": 557,
+                        "height": 721
+                    },
+                    {
+                        "url": "https://d-themes.com/wordpress/riode/elements/wp-content/uploads/sites/3/2021/06/1-19.jpg",
+                        "width": 748,
+                        "height": 685
+                    }
+                ],
+                "small_pictures": [
+                    {
+                        "url": "https://d-themes.com/wordpress/riode/elements/wp-content/uploads/sites/3/2021/06/1-19.jpg",
+                        "width": 119,
+                        "height": 231
+                    },
+                    {
+                        "url": "https://d-themes.com/wordpress/riode/elements/wp-content/uploads/sites/3/2021/06/1-19.jpg",
+                        "width": 119,
+                        "height": 231
+                    },
+                    {
+                        "url": "https://d-themes.com/wordpress/riode/elements/wp-content/uploads/sites/3/2021/06/1-19.jpg",
+                        "width": 119,
+                        "height": 231
+                    },
+                    {
+                        "url": "https://d-themes.com/wordpress/riode/elements/wp-content/uploads/sites/3/2021/06/1-19.jpg",
+                        "width": 119,
+                        "height": 231
+                    }
+                ],
+                "categories": [
+                    {
+                        "name": "door",
+                        "slug": "issue-water-work"
+                    }
+                ],
+                "variants": [
+                    {
+                        "price": 264,
+                        "sale_price": 53
+                    },
+                    {
+                        "price": 181,
+                        "sale_price": 143
+                    },
+                    {
+                        "price": 423,
+                        "sale_price": 183
+                    },
+                    {
+                        "price": 16,
+                        "sale_price": 1
+                    }
+                ],
+                "filters": [
+                    {
+                        "name": "Color",
+                        "fieldType": "picklist",
+                        "entries": [
+                            "Red",
+                            "Black"
+                        ],
+                        "isRequried": true
+                    },
+                    {
+                        "name": "msg",
+                        "fieldType": "text",
+                        "entries": [
+                            "Red",
+                            "Blck"
+                        ],
+                        "isRequried": true
+                    }
+                ],
+                "brands": {},
+                "prev": {
+                    "name": "test Prev",
+                    "pictures": [
+                        {
+                            "url": "https://d-themes.com/wordpress/riode/elements/wp-content/uploads/sites/3/2021/06/1-19.jpg"
+                        }
+                    ],
+                    "slug": "#"
+                },
+                "next": {
+                    "name": "test Next",
+                    "pictures": [
+                        {
+                            "url": "https://d-themes.com/wordpress/riode/elements/wp-content/uploads/sites/3/2021/06/1-19.jpg"
+                        }
+                    ],
+                    "slug": "#"
+                },
+                "related": [
+                    {
+                        "name": "Related Product 1",
+                        "slug": "related-product-1",
+                        "price": [
+                            90,
+                            90
+                        ],
+                        "ratings": 4.0,
+                        "reviews": 10,
+                        "stock": 30,
+                        "short_description": "Short description of related product 1.",
+                        "is_featured": false,
+                        "is_new": false,
+                        "until": "2024-06-30",
+                        "discount": 15,
+                        "pictures": [
+                            {
+                                "url": "https://d-themes.com/wordpress/riode/elements/wp-content/uploads/sites/3/2021/06/1-19.jpg",
+                                "width": 800,
+                                "height": 200
+                            }
+                        ],
+                        "small_pictures": [
+                            {
+                                "url": "https://d-themes.com/wordpress/riode/elements/wp-content/uploads/sites/3/2021/06/1-19.jpg",
+                                "width": 400,
+                                "height": 200
+                            }
+                        ],
+                        "categories": [
+                            {
+                                "name": "Category A",
+                                "slug": "category-a"
+                            }
+                        ],
+                        "variants": [
+                            {
+                                "price": 85,
+                                "sale_price": 75
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Related Product 2",
+                        "slug": "related-product-2",
+                        "price": [
+                            85,
+                            90
+                        ],
+                        "ratings": 3.5,
+                        "reviews": 15,
+                        "stock": 20,
+                        "short_description": "Short description of related product 2.",
+                        "is_featured": true,
+                        "is_new": true,
+                        "until": "2024-07-31",
+                        "discount": 10,
+                        "pictures": [
+                            {
+                                "url": "https://d-themes.com/wordpress/riode/elements/wp-content/uploads/sites/3/2021/06/1-19.jpg",
+                                "width": 800,
+                                "height": 200
+                            }
+                        ],
+                        "small_pictures": [
+                            {
+                                "url": "https://d-themes.com/wordpress/riode/elements/wp-content/uploads/sites/3/2021/06/1-19.jpg",
+                                "width": 400,
+                                "height": 200
+                            }
+                        ],
+                        "categories": [
+                            {
+                                "name": "Category B",
+                                "slug": "category-b"
+                            }
+                        ],
+                        "variants": [
+                            {
+                                "price": 80,
+                                "sale_price": 70
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Related Product 3",
+                        "slug": "related-product-3",
+                        "price": [
+                            95,
+                            105
+                        ],
+                        "ratings": 4.2,
+                        "reviews": 12,
+                        "stock": 25,
+                        "short_description": "Short description of related product 3.",
+                        "is_featured": false,
+                        "is_new": true,
+                        "until": "2024-08-31",
+                        "discount": 5,
+                        "pictures": [
+                            {
+                                "url": "https://d-themes.com/wordpress/riode/elements/wp-content/uploads/sites/3/2021/06/1-19.jpg",
+                                "width": 800,
+                                "height": 200
+                            }
+                        ],
+                        "small_pictures": [
+                            {
+                                "url": "https://d-themes.com/wordpress/riode/elements/wp-content/uploads/sites/3/2021/06/1-19.jpg",
+                                "width": 400,
+                                "height": 200
+                            }
+                        ],
+                        "categories": [
+                            {
+                                "name": "Category C",
+                                "slug": "category-c"
+                            }
+                        ],
+                        "variants": [
+                            {
+                                "price": 90,
+                                "sale_price": 80
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Related Product 4",
+                        "slug": "related-product-4",
+                        "price": [
+                            88,
+                            108
+                        ],
+                        "ratings": 3.8,
+                        "reviews": 8,
+                        "stock": 40,
+                        "short_description": "Short description of related product 4.",
+                        "is_featured": true,
+                        "is_new": false,
+                        "until": "2024-09-30",
+                        "discount": 20,
+                        "pictures": [
+                            {
+                                "url": "https://d-themes.com/wordpress/riode/elements/wp-content/uploads/sites/3/2021/06/1-19.jpg",
+                                "width": 800,
+                                "height": 200
+                            }
+                        ],
+                        "small_pictures": [
+                            {
+                                "url": "https://d-themes.com/wordpress/riode/elements/wp-content/uploads/sites/3/2021/06/1-19.jpg",
+                                "width": 400,
+                                "height": 200
+                            }
+                        ],
+                        "categories": [
+                            {
+                                "name": "Category D",
+                                "slug": "category-d"
+                            }
+                        ],
+                        "variants": [
+                            {
+                                "price": 82,
+                                "sale_price": 72
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Related Product 5",
+                        "slug": "related-product-5",
+                        "price": [
+                            92,
+                            102
+                        ],
+                        "ratings": 4.7,
+                        "reviews": 18,
+                        "stock": 15,
+                        "short_description": "Short description of related product 5.",
+                        "is_featured": false,
+                        "is_new": false,
+                        "until": "2024-10-31",
+                        "discount": 8,
+                        "pictures": [
+                            {
+                                "url": "https://d-themes.com/wordpress/riode/elements/wp-content/uploads/sites/3/2021/06/1-19.jpg",
+                                "width": 800,
+                                "height": 200
+                            }
+                        ],
+                        "small_pictures": [
+                            {
+                                "url": "https://d-themes.com/wordpress/riode/elements/wp-content/uploads/sites/3/2021/06/1-19.jpg",
+                                "width": 400,
+                                "height": 200
+                            }
+                        ],
+                        "categories": [
+                            {
+                                "name": "Category E",
+                                "slug": "category-e"
+                            }
+                        ],
+                        "variants": [
+                            {
+                                "price": 86,
+                                "sale_price": 76
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -118,7 +118,7 @@ function MobileMenu(props) {
                     </li>
 
                     <li>
-                        <Card title="Products" type="mobile" url="/product/default/beyond-riode-original-t-shirt">
+                        <Card title="Products" type="mobile" url="/product/default/note-character-half">
                             <ul>
                                 <li>
                                     <Card title="Product Pages" type="mobile">

@@ -31,7 +31,6 @@ export default function ToolBox( props ) {
     }, [] )
 
     const onChangeAttri = (e, attri) => {
-        debugger;
         e.preventDefault();
         const query = new URLSearchParams(location.search);
         query.set(attri, e.target.value);

@@ -1,0 +1,76 @@
+{
+  "post": {
+    "data": {
+      "title": "Sample Post Title",
+      "slug": "sample-post-title",
+      "author": "Author Name",
+      "date": "2024-06-19T12:00:00Z",
+      "comments": 10,
+      "content": "This is a sample post content. It can be of any length and format.",
+      "type": "article",
+      "large_picture": {
+        "url": "https://d-themes.com/wordpress/riode/elements/wp-content/uploads/sites/3/2020/09/post-1.jpg",
+        "width": 1200,
+        "height": 800
+      },
+      "picture": [{
+        "url": "https://d-themes.com/wordpress/riode/elements/wp-content/uploads/sites/3/2020/09/post-1.jpg",
+        "width": 600,
+        "height": 400
+      }],
+      "video": {
+        "url": "https://d-themes.com/wordpress/riode/elements/wp-content/uploads/sites/3/2020/09/post-1.jpg",
+        "width": 1280,
+        "height": 720
+      },
+      "categories": [
+        {
+          "name": "Category One",
+          "slug": "category-one"
+        },
+        {
+          "name": "Category Two",
+          "slug": "category-two"
+        }
+      ]
+    },
+    "related": [
+      {
+        "title": "Related Post Title 1",
+        "slug": "related-post-title-1",
+        "date": "2024-06-18T12:00:00Z",
+        "type": "video",
+        "comments": 5,
+        "content": "This is related post content 1.",
+       "picture":[ {
+          "url": "https://d-themes.com/wordpress/riode/elements/wp-content/uploads/sites/3/2020/09/post-1.jpg",
+          "width": 600,
+          "height": 400
+        }],
+        "video": {
+          "url": "https://d-themes.com/wordpress/riode/elements/wp-content/uploads/sites/3/2020/09/post-1.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      },
+      {
+        "title": "Related Post Title 2",
+        "slug": "related-post-title-2",
+        "date": "2024-06-17T12:00:00Z",
+        "type": "article",
+        "comments": 8,
+        "content": "This is related post content 2.",
+        "picture":[ {
+          "url": "https://d-themes.com/wordpress/riode/elements/wp-content/uploads/sites/3/2020/09/post-1.jpg",
+          "width": 600,
+          "height": 400
+        }],
+        "video": {
+          "url": "https://d-themes.com/wordpress/riode/elements/wp-content/uploads/sites/3/2020/09/post-1.jpg",
+          "width": 1280,
+          "height": 720
+        }
+      }
+    ]
+  }
+}

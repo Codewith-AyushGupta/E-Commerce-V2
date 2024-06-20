@@ -1,8 +1,12 @@
 import React, { useEffect, useState } from 'react'
 import { Helmet } from 'react-helmet'
-import MediaOne from './utils/MediaOne'
+// import MediaOne from './utils/Media/MediaOne'
 import MasterData from '..//..//shop/product-list/data/getProduct.json'
-import DetailOne from './utils/detail-one'
+import DetailOne from './utils/Details/detail-oneGenral'
+import data from '..//..//shop/product-list/data/getProductOne.json'
+import DescOne from '../description/DescOne'
+import RelatedProducts from '../related-products'
+import MediaOne from './utils/Media/MediaOneForGental'
 function ProductHome(props) {
     // debugger;
     const selectedProduct = window.location.pathname.split('/')[3];
@@ -14,6 +18,7 @@ function ProductHome(props) {
         matchingProducts.push(product);
     }
     });
+    const related = data.products.data[0].related;
 
     // alert(JSON.stringify(selectedProduct));
     const product = [{}]
@@ -35,9 +40,9 @@ function ProductHome(props) {
               </div>
             </div>
   
-            {/* <DescOne product={ Data} /> */}
+            {/* <DescOne product={ matchingProducts} /> */}
   
-            {/* <RelatedProducts products={ related } /> */}
+            <RelatedProducts products={ related } />
           </div>
         </div>
       </>

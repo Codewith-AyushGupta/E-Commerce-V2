@@ -66,7 +66,7 @@ export const cartActions = {
 
 export function* cartSaga() {
     yield takeEvery( actionTypes.ADD_TO_CART, function* saga( e ) {
-        // toast( <CartPopup product={ e.payload.product } /> );
+        toast( <CartPopup product={ e.payload.product } /> );
     } )
 }
 

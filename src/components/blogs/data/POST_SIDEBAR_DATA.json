@@ -1,0 +1,168 @@
+{
+    "postSidebarData": {
+        "categories": [
+            {
+                "name": "Technology",
+                "slug": "technology"
+            },
+            {
+                "name": "Health",
+                "slug": "health"
+            },
+            {
+                "name": "Travel",
+                "slug": "travel"
+            },
+            {
+                "name": "Food",
+                "slug": "food"
+            },
+            {
+                "name": "Lifestyle",
+                "slug": "lifestyle"
+            },
+            {
+                "name": "Education",
+                "slug": "education"
+            },
+            {
+                "name": "Business",
+                "slug": "business"
+            },
+            {
+                "name": "Finance",
+                "slug": "finance"
+            },
+            {
+                "name": "Entertainment",
+                "slug": "entertainment"
+            },
+            {
+                "name": "Sports",
+                "slug": "sports"
+            }
+        ],
+        "recent": [
+            {
+                "title": "Latest in Technology",
+                "slug": "latest-in-technology",
+                "date": "2024-06-05",
+                "small_picture": [
+                    {
+                        "url": "https://d-themes.com/wordpress/riode/elements/wp-content/uploads/sites/3/2020/09/post-2-2.jpg",
+                        "width": 400,
+                        "height": 300
+                    }
+                ]
+            },
+            {
+                "title": "Health Tips for 2024",
+                "slug": "health-tips-2024",
+                "date": "2024-06-04",
+                "small_picture": [
+                    {
+                        "url": "https://d-themes.com/wordpress/riode/elements/wp-content/uploads/sites/3/2020/09/post-4-1.jpg",
+                        "width": 400,
+                        "height": 300
+                    }
+                ]
+            },
+            {
+                "title": "Top Travel Destinations",
+                "slug": "top-travel-destinations",
+                "date": "2024-06-03",
+                "small_picture": [
+                    {
+                        "url": "https://d-themes.com/wordpress/riode/elements/wp-content/uploads/sites/3/2020/09/post-5-1.jpg",
+                        "width": 400,
+                        "height": 300
+                    }
+                ]
+            },
+            {
+                "title": "Delicious Recipes to Try",
+                "slug": "delicious-recipes",
+                "date": "2024-06-02",
+                "small_picture": [
+                    {
+                        "url": "https://d-themes.com/wordpress/riode/elements/wp-content/uploads/sites/3/2020/09/post-2-2.jpg",
+                        "width": 400,
+                        "height": 300
+                    }
+                ]
+            },
+            {
+                "title": "Lifestyle Trends 2024",
+                "slug": "lifestyle-trends-2024",
+                "date": "2024-06-01",
+                "small_picture": [
+                    {
+                        "url": "https://d-themes.com/wordpress/riode/elements/wp-content/uploads/sites/3/2020/09/post-2-2.jpg",
+                        "width": 400,
+                        "height": 300
+                    }
+                ]
+            },
+            {
+                "title": "Advancements in Education",
+                "slug": "advancements-in-education",
+                "date": "2024-05-31",
+                "small_picture": [
+                    {
+                        "url": "https://d-themes.com/wordpress/riode/elements/wp-content/uploads/sites/3/2020/09/post-4-1.jpg",
+                        "width": 400,
+                        "height": 300
+                    }
+                ]
+            },
+            {
+                "title": "Business Strategies for 2024",
+                "slug": "business-strategies-2024",
+                "date": "2024-05-30",
+                "small_picture": [
+                    {
+                        "url": "https://d-themes.com/wordpress/riode/elements/wp-content/uploads/sites/3/2020/09/post-2-2.jpg",
+                        "width": 400,
+                        "height": 300
+                    }
+                ]
+            },
+            {
+                "title": "Finance Tips for Beginners",
+                "slug": "finance-tips-beginners",
+                "date": "2024-05-29",
+                "small_picture": [
+                    {
+                        "url": "https://d-themes.com/wordpress/riode/elements/wp-content/uploads/sites/3/2020/09/post-2-2.jpg",
+                        "width": 400,
+                        "height": 300
+                    }
+                ]
+            },
+            {
+                "title": "Latest in Entertainment",
+                "slug": "latest-entertainment",
+                "date": "2024-05-28",
+                "small_picture": [
+                    {
+                        "url": "https://d-themes.com/wordpress/riode/elements/wp-content/uploads/sites/3/2020/09/post-2-2.jpg",
+                        "width": 400,
+                        "height": 300
+                    }
+                ]
+            },
+            {
+                "title": "Sports Highlights",
+                "slug": "sports-highlights",
+                "date": "2024-05-27",
+                "small_picture": [
+                    {
+                        "url": "https://d-themes.com/wordpress/riode/elements/wp-content/uploads/sites/3/2020/09/post-2-2.jpg",
+                        "width": 400,
+                        "height": 300
+                    }
+                ]
+            }
+        ]
+    }
+}

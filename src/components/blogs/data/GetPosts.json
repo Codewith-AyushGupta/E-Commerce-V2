@@ -1,0 +1,102 @@
+{
+    "posts": {
+      "data": [
+        {
+          "title": "First Post",
+          "slug": "first-post",
+          "date": "2024-06-06",
+          "comments": 10,
+          "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius libero, magni numquam harum vitae eos aliquam suscipit, quam distinctio minima debitis quidem temporibus blanditiis commodi, optio laboriosam rerum porro provident. Atque illo rerum consequatur ad, explicabo non officia dolor eius laborum doloremque veritatis? Nostrum, aspernatur possimus. Molestiae voluptate optio vero fugiat voluptatem a officia? Mollitia sunt blanditiis, voluptates aut temporibus quibusdam doloribus aspernatur asperiores eveniet debitis quidem cumque perspiciatis placeat, molestiae pariatur voluptatem. Deserunt corrupti eum ipsa commodi vitae natus laboriosam voluptas, facilis vero. Repudiandae error enim nostrum dolor? Eius itaque aut ipsum excepturi aliquam, rerum corporis. Pariatur iusto, corrupti non nisi tenetur ut fugiat quae quibusdam, hic, molestiae expedita obcaecati odit itaque? Atque molestias temporibus, labore enim asperiores consectetur sed saepe earum autem fugit, quo alias neque nesciunt eligendi rerum dolor possimus exercitationem optio esse amet non accusantium pariatur iste? Fuga magni quaerat vitae voluptatibus reiciendis, neque maiores nemo laboriosam dicta excepturi eius quidem ducimus itaque. Nisi, nostrum? Quas at repellendus nulla veritatis perferendis. Modi reprehenderit, molestias similique laborum cumque nemo consequatur qui aut dolores id vitae eveniet veritatis, porro debitis a blanditiis ab. Ratione vitae enim suscipit ab saepe harum porro explicabo veritatis? Ab perferendis cupiditate architecto placeat!",
+          "type": "blog",
+          "author": "Author One",
+          "large_picture": {
+            "url": "https://images.pexels.com/photos/262508/pexels-photo-262508.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "width": 1024,
+            "height": 768
+          },
+          "picture": [{
+            "url": "https://d-themes.com/wordpress/riode/elements/wp-content/uploads/sites/3/2020/09/post-1.jpg",
+            "width": 800,
+            "height": 800
+          },{
+            "url": "https://images.pexels.com/photos/262508/pexels-photo-262508.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "width": 800,
+            "height": 600
+          }],
+          "small_picture": {
+            "url": "https://images.pexels.com/photos/262508/pexels-photo-262508.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "width": 400,
+            "height": 300
+          },
+          "video": {
+            "url": "https://images.pexels.com/photos/262508/pexels-photo-262508.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        {
+          "title": "Second Post",
+          "slug": "second-post",
+          "date": "2024-06-05",
+          "comments": 20,
+          "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius libero, magni numquam harum vitae eos aliquam suscipit, quam distinctio minima debitis quidem temporibus blanditiis commodi, optio laboriosam rerum porro provident. Atque illo rerum consequatur ad, explicabo non officia dolor eius laborum doloremque veritatis? Nostrum, aspernatur possimus. Molestiae voluptate optio vero fugiat voluptatem a officia? Mollitia sunt blanditiis, voluptates aut temporibus quibusdam doloribus aspernatur asperiores eveniet debitis quidem cumque perspiciatis placeat, molestiae pariatur voluptatem. Deserunt corrupti eum ipsa commodi vitae natus laboriosam voluptas, facilis vero. Repudiandae error enim nostrum dolor? Eius itaque aut ipsum excepturi aliquam, rerum corporis. Pariatur iusto, corrupti non nisi tenetur ut fugiat quae quibusdam, hic, molestiae expedita obcaecati odit itaque? Atque molestias temporibus, labore enim asperiores consectetur sed saepe earum autem fugit, quo alias neque nesciunt eligendi rerum dolor possimus exercitationem optio esse amet non accusantium pariatur iste? Fuga magni quaerat vitae voluptatibus reiciendis, neque maiores nemo laboriosam dicta excepturi eius quidem ducimus itaque. Nisi, nostrum? Quas at repellendus nulla veritatis perferendis. Modi reprehenderit, molestias similique laborum cumque nemo consequatur qui aut dolores id vitae eveniet veritatis, porro debitis a blanditiis ab. Ratione vitae enim suscipit ab saepe harum porro explicabo veritatis? Ab perferendis cupiditate architecto placeat!",
+          "type": "news",
+          "author": "Author Two",
+          "large_picture": {
+            "url": "https://images.pexels.com/photos/262508/pexels-photo-262508.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "width": 1024,
+            "height": 1200
+          },
+          "picture":[ {
+            "url": "https://d-themes.com/wordpress/riode/elements/wp-content/uploads/sites/3/2020/09/post-2.jpg",
+            "width": 800,
+            "height": 1200
+          },{
+            "url": "https://d-themes.com/wordpress/riode/elements/wp-content/uploads/sites/3/2020/09/post-4.jpg",
+            "width": 800,
+            "height": 1200
+          }],
+          "small_picture": {
+            "url": "https://images.pexels.com/photos/262508/pexels-photo-262508.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "width": 400,
+            "height": 800
+          },
+          "video": {
+            "url": "https://images.pexels.com/photos/262508/pexels-photo-262508.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        {
+          "title": "Third Post",
+          "slug": "third-post",
+          "date": "2024-06-04",
+          "comments": 30,
+          "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius libero, magni numquam harum vitae eos aliquam suscipit, quam distinctio minima debitis quidem temporibus blanditiis commodi, optio laboriosam rerum porro provident. Atque illo rerum consequatur ad, explicabo non officia dolor eius laborum doloremque veritatis? Nostrum, aspernatur possimus. Molestiae voluptate optio vero fugiat voluptatem a officia? Mollitia sunt blanditiis, voluptates aut temporibus quibusdam doloribus aspernatur asperiores eveniet debitis quidem cumque perspiciatis placeat, molestiae pariatur voluptatem. Deserunt corrupti eum ipsa commodi vitae natus laboriosam voluptas, facilis vero. Repudiandae error enim nostrum dolor? Eius itaque aut ipsum excepturi aliquam, rerum corporis. Pariatur iusto, corrupti non nisi tenetur ut fugiat quae quibusdam, hic, molestiae expedita obcaecati odit itaque? Atque molestias temporibus, labore enim asperiores consectetur sed saepe earum autem fugit, quo alias neque nesciunt eligendi rerum dolor possimus exercitationem optio esse amet non accusantium pariatur iste? Fuga magni quaerat vitae voluptatibus reiciendis, neque maiores nemo laboriosam dicta excepturi eius quidem ducimus itaque. Nisi, nostrum? Quas at repellendus nulla veritatis perferendis. Modi reprehenderit, molestias similique laborum cumque nemo consequatur qui aut dolores id vitae eveniet veritatis, porro debitis a blanditiis ab. Ratione vitae enim suscipit ab saepe harum porro explicabo veritatis? Ab perferendis cupiditate architecto placeat!",
+          "type": "review",
+          "author": "Author Three",
+          "large_picture": {
+            "url": "https://images.pexels.com/photos/262508/pexels-photo-262508.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "width": 1024,
+            "height": 768
+          },
+          "picture": [{
+            "url": "https://d-themes.com/wordpress/riode/elements/wp-content/uploads/sites/3/2020/09/6-3.jpg",
+            "width": 800,
+            "height": 600
+          }],
+          "small_picture": {
+            "url": "https://images.pexels.com/photos/262508/pexels-photo-262508.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "width": 400,
+            "height": 300
+          },
+          "video": {
+            "url": "https://images.pexels.com/photos/262508/pexels-photo-262508.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "width": 1280,
+            "height": 720
+          }
+        }
+      ],
+      "total": 3
+    }
+  }

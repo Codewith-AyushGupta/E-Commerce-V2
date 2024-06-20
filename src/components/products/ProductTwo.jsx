@@ -11,7 +11,7 @@ import { wishlistActions } from '../store/wishlistReducer';
 import { toDecimal } from '../utils';
 
 function ProductTwo( props ) {
-    // debugger;
+    debugger;
     const { product, adClass = 'text-center', toggleWishlist, wishlist, addToCart, openQuickview } = props;
 
     // decide if the product is wishlisted
@@ -58,7 +58,7 @@ function ProductTwo( props ) {
                         product.pictures.length >= 2 ?
                             <LazyLoadImage
                                 alt="product"
-                                src={  product.pictures[ 1 ].url }
+                                src={  product.pictures[ 0 ].url }
                                 threshold={ 500 }
                                 width="300"
                                 height="338"

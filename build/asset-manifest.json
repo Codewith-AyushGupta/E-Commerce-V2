@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.bf866b5f.css",
-    "main.js": "/static/js/main.9d4804ce.js",
+    "main.js": "/static/js/main.f8fccf43.js",
     "static/js/845.93cb5516.chunk.js": "/static/js/845.93cb5516.chunk.js",
+    "static/js/573.70ca0cf4.chunk.js": "/static/js/573.70ca0cf4.chunk.js",
     "static/media/banner1.png": "/static/media/banner1.060d7ecd56db7e0b078e.png",
     "static/media/call-6.png": "/static/media/call-6.6fb2cc8a402e2c5ea40c.png",
-    "static/media/image.png": "/static/media/image.73d4fadd82343a8e37c8.png",
+    "static/media/image.png": "/static/media/image.54f8f9e91b16d7e331e7.png",
     "static/media/banner2.jpg": "/static/media/banner2.ab2df753d953901ce87c.jpg",
     "static/media/commingSoonBanner.png": "/static/media/commingSoonBanner.96213dc37bf3486267d9.png",
     "static/media/riode.eot?5gap68": "/static/media/riode.6f777af5c12ab902c54d.eot",
@@ -23,16 +24,18 @@
     "static/media/elements.png": "/static/media/elements.2b796e595926374d1bfe.png",
     "static/media/4.jpg": "/static/media/4.32c8bb62118498cc9e9c.jpg",
     "static/media/c2.jpg": "/static/media/c2.bfb039620e8acaeafd25.jpg",
+    "static/media/cat7-300x300.jpg": "/static/media/cat7-300x300.6df0b72787eddd242f88.jpg",
     "static/media/3.jpg": "/static/media/3.3331662025e5c5494d33.jpg",
     "static/media/Error404.png": "/static/media/Error404.8f66344e8c598a906aac.png",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
     "main.bf866b5f.css.map": "/static/css/main.bf866b5f.css.map",
-    "main.9d4804ce.js.map": "/static/js/main.9d4804ce.js.map",
-    "845.93cb5516.chunk.js.map": "/static/js/845.93cb5516.chunk.js.map"
+    "main.f8fccf43.js.map": "/static/js/main.f8fccf43.js.map",
+    "845.93cb5516.chunk.js.map": "/static/js/845.93cb5516.chunk.js.map",
+    "573.70ca0cf4.chunk.js.map": "/static/js/573.70ca0cf4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bf866b5f.css",
-    "static/js/main.9d4804ce.js"
+    "static/js/main.f8fccf43.js"
   ]
 }
