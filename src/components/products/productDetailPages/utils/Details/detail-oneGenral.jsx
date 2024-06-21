@@ -53,6 +53,7 @@ function DetailOne( props ) {
         }
     }, [ product ] )
 
+   
     useEffect( () => {
         if ( product.variants.length > 0 ) {
             if ( ( curSize !== 'null' && curColor !== 'null' ) || ( curSize === 'null' && product.variants[ 0 ].size === null && curColor !== 'null' ) || ( curColor === 'null' && product.variants[ 0 ].color === null && curSize !== 'null' ) ) {

@@ -39,7 +39,7 @@ function ElementTabs () {
                                     nisl convallis tempus Phsellus anctus, tincidunt tincidunt dui.</blockquote>
                                 <div className="testimonial-info">
                                     <figure className="testimonial-author-thumbnail">
-                                        <img src="./images/agents/1.jpg" alt="user" width="50" height="50" />
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtuphMb4mq-EcVWhMVT8FCkv5dqZGgvn_QiA&s" alt="user" width="50" height="50" />
                                     </figure>
                                     <cite>
                                         Herman Beck
@@ -52,7 +52,7 @@ function ElementTabs () {
                                     nisl convallis tempus Phsellus anctus, tincidunt tincidunt dui.</blockquote>
                                 <div className="testimonial-info">
                                     <figure className="testimonial-author-thumbnail">
-                                        <img src="./images/agents/2.jpg" alt="user" width="50" height="50" />
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtuphMb4mq-EcVWhMVT8FCkv5dqZGgvn_QiA&s" alt="user" width="50" height="50" />
                                     </figure>
                                     <cite>
                                         Herman Beck
@@ -65,7 +65,7 @@ function ElementTabs () {
                                     nisl convallis tempus Phsellus anctus, tincidunt tincidunt dui.</blockquote>
                                 <div className="testimonial-info">
                                     <figure className="testimonial-author-thumbnail">
-                                        <img src="./images/agents/3.jpg" alt="user" width="50" height="50" />
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtuphMb4mq-EcVWhMVT8FCkv5dqZGgvn_QiA&s" alt="user" width="50" height="50" />
                                     </figure>
                                     <cite>
                                         Herman Beck
@@ -86,7 +86,7 @@ function ElementTabs () {
                                     nisl convallis tempus Phsellus anctus, tincidunt tincidunt dui.</blockquote>
                                 <div className="testimonial-info">
                                     <figure className="testimonial-author-thumbnail">
-                                        <img src="./images/agents/1.jpg" alt="user" width="50" height="50" />
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtuphMb4mq-EcVWhMVT8FCkv5dqZGgvn_QiA&s" alt="user" width="50" height="50" />
                                     </figure>
                                     <cite>
                                         Herman Beck
@@ -99,7 +99,7 @@ function ElementTabs () {
                                     nisl convallis tempus Phsellus anctus, tincidunt tincidunt dui.</blockquote>
                                 <div className="testimonial-info">
                                     <figure className="testimonial-author-thumbnail">
-                                        <img src="./images/agents/2.jpg" alt="user" width="50" height="50" />
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtuphMb4mq-EcVWhMVT8FCkv5dqZGgvn_QiA&s" alt="user" width="50" height="50" />
                                     </figure>
                                     <cite>
                                         Herman Beck
@@ -112,7 +112,7 @@ function ElementTabs () {
                                     nisl convallis tempus Phsellus anctus, tincidunt tincidunt dui.</blockquote>
                                 <div className="testimonial-info">
                                     <figure className="testimonial-author-thumbnail">
-                                        <img src="./images/agents/3.jpg" alt="user" width="50" height="50" />
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtuphMb4mq-EcVWhMVT8FCkv5dqZGgvn_QiA&s" alt="user" width="50" height="50" />
                                     </figure>
                                     <cite>
                                         Herman Beck
@@ -133,7 +133,7 @@ function ElementTabs () {
                                 <div className="testimonial-info">
                                     <h3 className="testimonial-title">What they say about us</h3>
                                     <figure className="testimonial-author-thumbnail">
-                                        <img src="./images/agents/4.jpg" alt="user" width="40" height="40" />
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtuphMb4mq-EcVWhMVT8FCkv5dqZGgvn_QiA&s" alt="user" width="40" height="40" />
                                     </figure>
                                     <blockquote>“ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus
                                         hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque ”</blockquote>
@@ -147,7 +147,7 @@ function ElementTabs () {
                                 <div className="testimonial-info">
                                     <h3 className="testimonial-title">What they say about us</h3>
                                     <figure className="testimonial-author-thumbnail">
-                                        <img src="./images/agents/4.jpg" alt="user" width="40" height="40" />
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtuphMb4mq-EcVWhMVT8FCkv5dqZGgvn_QiA&s" alt="user" width="40" height="40" />
                                     </figure>
                                     <blockquote>“ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus
                                         hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque ”</blockquote>
@@ -161,7 +161,7 @@ function ElementTabs () {
                                 <div className="testimonial-info">
                                     <h3 className="testimonial-title">What they say about us</h3>
                                     <figure className="testimonial-author-thumbnail">
-                                        <img src="./images/agents/5.jpg" alt="user" width="40" height="40" />
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtuphMb4mq-EcVWhMVT8FCkv5dqZGgvn_QiA&s" alt="user" width="40" height="40" />
                                     </figure>
                                     <blockquote>“ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus
                                         hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque ”</blockquote>
@@ -188,7 +188,7 @@ function ElementTabs () {
                                         </blockquote>
                                         <div className="testimonial-info">
                                             <figure className="testimonial-author-thumbnail">
-                                                <img src="./images/agents/1.jpg" alt="user" width="50" height="50" />
+                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtuphMb4mq-EcVWhMVT8FCkv5dqZGgvn_QiA&s" alt="user" width="50" height="50" />
                                             </figure>
                                             <cite>
                                                 Herman Beck
@@ -203,7 +203,7 @@ function ElementTabs () {
                                         </blockquote>
                                         <div className="testimonial-info">
                                             <figure className="testimonial-author-thumbnail">
-                                                <img src="./images/agents/2.jpg" alt="user" width="50" height="50" />
+                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtuphMb4mq-EcVWhMVT8FCkv5dqZGgvn_QiA&s" alt="user" width="50" height="50" />
                                             </figure>
                                             <cite>
                                                 Herman Beck
@@ -218,7 +218,7 @@ function ElementTabs () {
                                         </blockquote>
                                         <div className="testimonial-info">
                                             <figure className="testimonial-author-thumbnail">
-                                                <img src="./images/agents/3.jpg" alt="user" width="50" height="50" />
+                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtuphMb4mq-EcVWhMVT8FCkv5dqZGgvn_QiA&s" alt="user" width="50" height="50" />
                                             </figure>
                                             <cite>
                                                 Herman Beck
@@ -238,7 +238,7 @@ function ElementTabs () {
                                             </blockquote>
                                         <div className="testimonial-info">
                                             <figure className="testimonial-author-thumbnail">
-                                                <img src="./images/agents/1.jpg" alt="user" width="50" height="50" />
+                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtuphMb4mq-EcVWhMVT8FCkv5dqZGgvn_QiA&s" alt="user" width="50" height="50" />
                                             </figure>
                                             <cite>
                                                 Herman Beck
@@ -253,7 +253,7 @@ function ElementTabs () {
                                             </blockquote>
                                         <div className="testimonial-info">
                                             <figure className="testimonial-author-thumbnail">
-                                                <img src="./images/agents/2.jpg" alt="user" width="50" height="50" />
+                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtuphMb4mq-EcVWhMVT8FCkv5dqZGgvn_QiA&s" alt="user" width="50" height="50" />
                                             </figure>
                                             <cite>
                                                 Herman Beck
@@ -268,7 +268,7 @@ function ElementTabs () {
                                             </blockquote>
                                         <div className="testimonial-info">
                                             <figure className="testimonial-author-thumbnail">
-                                                <img src="./images/agents/3.jpg" alt="user" width="50" height="50" />
+                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtuphMb4mq-EcVWhMVT8FCkv5dqZGgvn_QiA&s" alt="user" width="50" height="50" />
                                             </figure>
                                             <cite>
                                                 Herman Beck
@@ -292,7 +292,7 @@ function ElementTabs () {
                             <div className="testimonial testimonial-centered testimonial-bg">
                                 <div className="testimonial-info">
                                     <figure className="testimonial-author-thumbnail">
-                                        <img src="./images/agents/4.jpg" alt="user" width="50" height="50" />
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtuphMb4mq-EcVWhMVT8FCkv5dqZGgvn_QiA&s" alt="user" width="50" height="50" />
                                     </figure>
                                     <blockquote>“ Donec nec justo eget felis facilisis fermentum. Aliquam porttitor
                                     mauris sit amet orci. Aenean dignissim pellentesque felis. Morbi in sem quis dui
@@ -306,7 +306,7 @@ function ElementTabs () {
                             <div className="testimonial testimonial-centered testimonial-bg">
                                 <div className="testimonial-info">
                                     <figure className="testimonial-author-thumbnail">
-                                        <img src="./images/agents/5.jpg" alt="user" width="50" height="50" />
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtuphMb4mq-EcVWhMVT8FCkv5dqZGgvn_QiA&s" alt="user" width="50" height="50" />
                                     </figure>
                                     <blockquote>“ Donec nec justo eget felis facilisis fermentum. Aliquam porttitor
                                     mauris sit amet orci. Aenean dignissim pellentesque felis. Morbi in sem quis dui
@@ -320,7 +320,7 @@ function ElementTabs () {
                             <div className="testimonial testimonial-centered testimonial-bg">
                                 <div className="testimonial-info">
                                     <figure className="testimonial-author-thumbnail">
-                                        <img src="./images/agents/2.jpg" alt="user" width="50" height="50" />
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtuphMb4mq-EcVWhMVT8FCkv5dqZGgvn_QiA&s" alt="user" width="50" height="50" />
                                     </figure>
                                     <blockquote>“ Donec nec justo eget felis facilisis fermentum. Aliquam porttitor
                                     mauris sit amet orci. Aenean dignissim pellentesque felis. Morbi in sem quis dui

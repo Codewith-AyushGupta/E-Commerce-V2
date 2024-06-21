@@ -58,6 +58,7 @@ import HorizontalSlug from './components/products/horizontal/[horizontalSlug]';
 import LeftSlideSlug from './components/products/leftSlideBar/[leftSlideSlug]';
 import RightSlideBarSlug from './components/products/[RightSlideBarSlug].jsx/[RightSlideBarSlug]';
 import StickyCartSlug from './components/products/stickyCart/[StickyCartSlug]';
+import Testimonials from './components/elements/Testimonials';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -89,6 +90,7 @@ root.render(
           <Route path="elements/icon-boxes" element={<Layout children={<IconBoxes/>}/>} />
           <Route path="elements/icons" element={<Layout children={<Icon/>}/>} />
           <Route path="elements/blog-posts" element={<Layout children={<BlogPosts/>}/>} />
+          <Route path="elements/testimonials" element={<Layout children={<Testimonials/>}/>} />
 
           <Route path="blog/classic" element={<Layout children={<Classic/>}/>} />
           <Route path="blog/listing" element={<Layout children={<Listing/>}/>} />
