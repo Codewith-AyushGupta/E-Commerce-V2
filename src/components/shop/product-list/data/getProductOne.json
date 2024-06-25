@@ -74,19 +74,59 @@
                 "variants": [
                     {
                         "price": 264,
-                        "sale_price": 53
+                        "sale_price": 53,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     },
                     {
                         "price": 181,
-                        "sale_price": 143
+                        "sale_price": 143,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     },
                     {
                         "price": 423,
-                        "sale_price": 183
+                        "sale_price": 183,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     },
                     {
                         "price": 16,
-                        "sale_price": 1
+                        "sale_price": 1,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     }
                 ],
                 "filters": [

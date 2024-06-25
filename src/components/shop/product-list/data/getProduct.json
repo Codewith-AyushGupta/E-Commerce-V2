@@ -59,19 +59,59 @@
                 "variants": [
                     {
                         "price": 264,
-                        "sale_price": 53
+                        "sale_price": 53,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     },
                     {
                         "price": 181,
-                        "sale_price": 143
+                        "sale_price": 143,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     },
                     {
                         "price": 423,
-                        "sale_price": 183
+                        "sale_price": 183,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     },
                     {
                         "price": 16,
-                        "sale_price": 1
+                        "sale_price": 1,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     }
                 ],
                 "filters": [
@@ -133,7 +173,17 @@
                 "variants": [
                     {
                         "price": 72,
-                        "sale_price": 223
+                        "sale_price": 223,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     }
                 ]
             },
@@ -175,15 +225,45 @@
                 "variants": [
                     {
                         "price": 23,
-                        "sale_price": 61
+                        "sale_price": 61,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     },
                     {
                         "price": 21,
-                        "sale_price": 166
+                        "sale_price": 166,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     },
                     {
                         "price": 289,
-                        "sale_price": 86
+                        "sale_price": 86,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     }
                 ]
             },
@@ -225,19 +305,59 @@
                 "variants": [
                     {
                         "price": 118,
-                        "sale_price": 89
+                        "sale_price": 89,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     },
                     {
                         "price": 80,
-                        "sale_price": 12
+                        "sale_price": 12,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     },
                     {
                         "price": 155,
-                        "sale_price": 143
+                        "sale_price": 143,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     },
                     {
                         "price": 209,
-                        "sale_price": 116
+                        "sale_price": 116,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     }
                 ]
             },
@@ -283,7 +403,17 @@
                 "variants": [
                     {
                         "price": 166,
-                        "sale_price": 170
+                        "sale_price": 170,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     }
                 ]
             },
@@ -353,11 +483,31 @@
                 "variants": [
                     {
                         "price": 473,
-                        "sale_price": 198
+                        "sale_price": 198,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     },
                     {
                         "price": 255,
-                        "sale_price": 131
+                        "sale_price": 131,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     }
                 ]
             },
@@ -412,19 +562,59 @@
                 "variants": [
                     {
                         "price": 16,
-                        "sale_price": 1
+                        "sale_price": 1,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     },
                     {
                         "price": 323,
-                        "sale_price": 159
+                        "sale_price": 159,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     },
                     {
                         "price": 270,
-                        "sale_price": 176
+                        "sale_price": 176,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     },
                     {
                         "price": 278,
-                        "sale_price": 26
+                        "sale_price": 26,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     }
                 ]
             },
@@ -481,19 +671,59 @@
                 "variants": [
                     {
                         "price": 125,
-                        "sale_price": 142
+                        "sale_price": 142,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     },
                     {
                         "price": 346,
-                        "sale_price": 10
+                        "sale_price": 10,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     },
                     {
                         "price": 337,
-                        "sale_price": 52
+                        "sale_price": 52,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     },
                     {
                         "price": 466,
-                        "sale_price": 106
+                        "sale_price": 106,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     }
                 ]
             },
@@ -545,7 +775,17 @@
                 "variants": [
                     {
                         "price": 316,
-                        "sale_price": 248
+                        "sale_price": 248,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     }
                 ]
             },
@@ -601,7 +841,17 @@
                 "variants": [
                     {
                         "price": 251,
-                        "sale_price": 35
+                        "sale_price": 35,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     }
                 ]
             },
@@ -662,15 +912,45 @@
                 "variants": [
                     {
                         "price": 50,
-                        "sale_price": 12
+                        "sale_price": 12,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     },
                     {
                         "price": 265,
-                        "sale_price": 239
+                        "sale_price": 239,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     },
                     {
                         "price": 291,
-                        "sale_price": 220
+                        "sale_price": 220,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     }
                 ]
             },
@@ -732,11 +1012,33 @@
                 "variants": [
                     {
                         "price": 316,
-                        "sale_price": 93
+                        "sale_price": 93,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
+                        
                     },
                     {
                         "price": 423,
-                        "sale_price": 247
+                        "sale_price": 247,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
+                        
                     }
                 ]
             },
@@ -796,19 +1098,59 @@
                 "variants": [
                     {
                         "price": 205,
-                        "sale_price": 147
+                        "sale_price": 147 ,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }            
                     },
                     {
                         "price": 23,
-                        "sale_price": 1
+                        "sale_price": 1,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     },
                     {
                         "price": 422,
-                        "sale_price": 247
+                        "sale_price": 247,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     },
                     {
                         "price": 127,
-                        "sale_price": 35
+                        "sale_price": 35,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     }
                 ]
             },
@@ -874,15 +1216,45 @@
                 "variants": [
                     {
                         "price": 187,
-                        "sale_price": 72
+                        "sale_price": 72,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     },
                     {
                         "price": 316,
-                        "sale_price": 83
+                        "sale_price": 83,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     },
                     {
                         "price": 27,
-                        "sale_price": 217
+                        "sale_price": 217,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     }
                 ]
             },
@@ -934,15 +1306,45 @@
                 "variants": [
                     {
                         "price": 438,
-                        "sale_price": 11
+                        "sale_price": 11,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     },
                     {
                         "price": 396,
-                        "sale_price": 37
+                        "sale_price": 37,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     },
                     {
                         "price": 98,
-                        "sale_price": 224
+                        "sale_price": 224,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     }
                 ]
             },
@@ -994,11 +1396,31 @@
                 "variants": [
                     {
                         "price": 421,
-                        "sale_price": 39
+                        "sale_price": 39,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     },
                     {
                         "price": 168,
-                        "sale_price": 193
+                        "sale_price": 193,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     }
                 ]
             },
@@ -1059,15 +1481,45 @@
                 "variants": [
                     {
                         "price": 155,
-                        "sale_price": 132
+                        "sale_price": 132,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     },
                     {
                         "price": 161,
-                        "sale_price": 119
+                        "sale_price": 119,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     },
                     {
                         "price": 355,
-                        "sale_price": 77
+                        "sale_price": 77,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     }
                 ]
             },
@@ -1123,7 +1575,17 @@
                 "variants": [
                     {
                         "price": 377,
-                        "sale_price": 46
+                        "sale_price": 46,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     }
                 ]
             },
@@ -1179,11 +1641,31 @@
                 "variants": [
                     {
                         "price": 357,
-                        "sale_price": 249
+                        "sale_price": 249,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     },
                     {
                         "price": 125,
-                        "sale_price": 34
+                        "sale_price": 34,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     }
                 ]
             },
@@ -1225,19 +1707,59 @@
                 "variants": [
                     {
                         "price": 369,
-                        "sale_price": 221
+                        "sale_price": 221,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     },
                     {
                         "price": 240,
-                        "sale_price": 178
+                        "sale_price": 178,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     },
                     {
                         "price": 295,
-                        "sale_price": 87
+                        "sale_price": 87,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     },
                     {
                         "price": 251,
-                        "sale_price": 179
+                        "sale_price": 179,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     }
                 ],
                 "filters": [
@@ -1313,11 +1835,31 @@
                 "variants": [
                     {
                         "price": 159,
-                        "sale_price": 70
+                        "sale_price": 70,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     },
                     {
                         "price": 96,
-                        "sale_price": 181
+                        "sale_price": 181,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     }
                 ]
             },
@@ -1368,11 +1910,31 @@
                 "variants": [
                     {
                         "price": 423,
-                        "sale_price": 52
+                        "sale_price": 52,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     },
                     {
                         "price": 276,
-                        "sale_price": 80
+                        "sale_price": 80,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     }
                 ]
             },
@@ -1443,15 +2005,45 @@
                 "variants": [
                     {
                         "price": 302,
-                        "sale_price": 242
+                        "sale_price": 242,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     },
                     {
                         "price": 151,
-                        "sale_price": 52
+                        "sale_price": 52,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     },
                     {
                         "price": 338,
-                        "sale_price": 16
+                        "sale_price": 16,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     }
                 ]
             },
@@ -1508,11 +2100,31 @@
                 "variants": [
                     {
                         "price": 319,
-                        "sale_price": 95
+                        "sale_price": 95,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     },
                     {
                         "price": 373,
-                        "sale_price": 136
+                        "sale_price": 136,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     }
                 ]
             },
@@ -1573,15 +2185,45 @@
                 "variants": [
                     {
                         "price": 306,
-                        "sale_price": 82
+                        "sale_price": 82,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     },
                     {
                         "price": 181,
-                        "sale_price": 223
+                        "sale_price": 223,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     },
                     {
                         "price": 303,
-                        "sale_price": 238
+                        "sale_price": 238,
+                        "color": {
+                        "name": "Blue",
+                        "slug": "blue",
+                        "color": "#1e73be"
+                        },
+                        "size": {
+                            "name": "Extra Large",
+                            "slug": "xl",
+                            "size": "XL"
+                        }
                     }
                 ]
             }

@@ -11,7 +11,6 @@ import { wishlistActions } from '../store/wishlistReducer';
 import { toDecimal } from '../utils';
 
 function ProductTwo( props ) {
-    debugger;
     const { product, adClass = 'text-center', toggleWishlist, wishlist, addToCart, openQuickview } = props;
 
     // decide if the product is wishlisted

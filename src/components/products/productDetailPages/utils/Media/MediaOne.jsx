@@ -89,9 +89,9 @@ export default function MediaOne( props ) {
                         lgImages.map( ( image, index ) =>
                             <div key={ image + '-' + index }>
                                 <Magnifier
-                                    imageSrc={image.url  }
+                                    imageSrc={image.url}
                                     imageAlt="magnifier"
-                                    largeImageSrc={ image.url }
+                                    largeImageSrc={image.url}
                                     dragToMove={ false }
                                     mouseActivation="hover"
                                     cursorStyleActive="crosshair"

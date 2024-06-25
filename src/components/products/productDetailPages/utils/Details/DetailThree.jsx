@@ -16,7 +16,6 @@ import { cartActions } from '../../../../store/cart';
 import { toDecimal } from '../../../../utils';
 
 function DetailOne( props ) {
-    debugger;
     let router = useLocation();
     const { data, isSticky = false, isDesc = false, adClass = '' } = props;
     const { toggleWishlist, addToCart, wishlist } = props;

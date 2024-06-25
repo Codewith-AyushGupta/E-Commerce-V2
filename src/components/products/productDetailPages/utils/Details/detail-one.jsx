@@ -15,7 +15,6 @@ import { cartActions } from '../../../../store/cart';
 import { toDecimal } from '../../../../utils';
 
 function DetailOne( props ) {
-    debugger;
     let router = useLocation();
     const { data, isStickyCart = false, adClass = '', isNav = true } = props;
     const { toggleWishlist, addToCart, wishlist } = props;
@@ -24,8 +23,9 @@ function DetailOne( props ) {
     const [ curIndex, setCurIndex ] = useState( -1 );
     const [ cartActive, setCartActive ] = useState( false );
     const [ quantity, setQauntity ] = useState( 1 );
-    let product = data.products.data[0];
 
+    let product = data.products.data[0];
+    debugger;
     // decide if the product is wishlisted
     let isWishlisted, colors = [], sizes = [];
     isWishlisted = wishlist.findIndex( item => item.slug === product.slug ) > -1 ? true : false;
