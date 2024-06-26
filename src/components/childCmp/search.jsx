@@ -1,21 +1,166 @@
-import React from 'react';
-import { useNavigate } from 'react-router-dom'; 
+import React, { useEffect, useState } from 'react';
+import { useLocation } from 'react-router-dom';
+// import { useLazyQuery } from '@apollo/react-hooks';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
+import ALink from '../custom-link';
+
+// import { GET_PRODUCTS } from '~/server/queries';
+import data from '..//shop/product-list/data/getProduct.json'
+// import withApollo from '~/server/apollo';
+
+import { toDecimal } from '../utils';
 
 function SearchForm() {
-    const history = useNavigate();
-    
+    debugger;
+    const router = useLocation();
+    const [search, setSearch] = useState("");
+    // const [ searchProducts, { data } ] = useLazyQuery( GET_PRODUCTS );
+    const searchProducts = {};
+    const [timer, setTimer] = useState('null');
+
+    useEffect(() => {
+        document.querySelector("body").addEventListener("click", onBodyClick);
+
+        return (() => {
+            document.querySelector("body").removeEventListener("click", onBodyClick);
+        })
+    }, [])
+
+    // useEffect( () => {
+    //     setSearch( "" );
+    // }, [ router.query.slug ] )
+
+    // useEffect( () => {
+    //     if ( search.length > 2 ) {
+    //         if ( timer ) clearTimeout( timer );
+    //         let timerId = setTimeout( () => {
+    //             searchProducts( { variables: { search: search } } );
+    //             setTimer( null );;
+    //         }, 500 );
+
+    //         setTimer( timerId );
+    //     }
+    // }, [ search ] )
+
+    useEffect(() => {
+        document.querySelector('.header-search.show-results') && document.querySelector('.header-search.show-results').classList.remove('show-results');
+    }, [router.pathname])
+
+    function removeXSSAttacks(html) {
+        const SCRIPT_REGEX = /<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi;
+
+        // Removing the <script> tags
+        while (SCRIPT_REGEX.test(html)) {
+            html = html.replace(SCRIPT_REGEX, "");
+        }
+
+        // Removing all events from tags...
+        html = html.replace(/ on\w+="[^"]*"/g, "");
+
+        return {
+            __html: html
+        }
+    }
+
+    function matchEmphasize(name) {
+        let regExp = new RegExp(search, "i");
+        return name.replace(
+            regExp,
+            (match) => "<strong>" + match + "</strong>"
+        );
+    }
+
+    function onSearchClick(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        e.currentTarget.parentNode.classList.toggle('show');
+    }
+
+    function onBodyClick(e) {
+        if (e.target.closest('.header-search')) return e.target.closest('.header-search').classList.contains('show-results') || e.target.closest('.header-search').classList.add('show-results');
+
+        document.querySelector('.header-search.show') && document.querySelector('.header-search.show').classList.remove('show');
+        document.querySelector('.header-search.show-results') && document.querySelector('.header-search.show-results').classList.remove('show-results');
+    }
+
+    function onSearchChange(e) {
+        setSearch(e.target.value);
+    }
+
+    function onSubmitSearchForm(e) {
+        e.preventDefault();
+        router.push({
+            pathname: '/shop',
+            query: {
+                search: search
+            }
+        });
+    }
+    const commonStyle = {
+        display: 'flex',
+        height: '18px',
+        width: '30vw',
+        backgroundColor: '#d8d9dd',
+        marginBottom: '1%',
+    };
+    const commonStyle2={
+        width: '15vw',
+        display: 'flex',
+        height: '18px',
+        backgroundColor: '#d8d9dd',
+        marginBottom: '1%',
+    }
+      
+
     return (
         <div className="header-search hs-simple">
-            <a href="#" className="search-toggle" role="button"><i className="icon-search-3"></i></a>
-            <form action="#" method="get" className="input-wrapper">
-                <input type="text" className="form-control customColor" name="search" autoComplete="off" placeholder="Search..." required />
+            <a href="#" className="search-toggle" role="button" onClick={onSearchClick}><i className="icon-search-3"></i></a>
+            <form action="#" method="get" onSubmit={onSubmitSearchForm} className="input-wrapper">
+                <input type="text" className="form-control" name="search" autoComplete="off" value={search} onChange={onSearchChange}
+                    placeholder="Search..." required />
 
                 <button className="btn btn-search" type="submit">
-                <i className="d-icon-search"></i>
+                    <i className="d-icon-search"></i>
                 </button>
 
                 <div className="live-search-list bg-white scrollable">
-                    {/* Your search results UI */}
+                    {search.length > 2 && data && data.products.data.map((product, index) => (
+                        <ALink href={`/product/default/${product.slug}`} className="autocomplete-suggestion" key={`search-result-${index}`}>
+                            <LazyLoadImage src={product.pictures[0].url} width={40} height={40} alt="product" />
+                            <div className="search-name " dangerouslySetInnerHTML={removeXSSAttacks(matchEmphasize(product.name))}></div>
+                            <span className="search-price">
+                                {
+                                    product.price[0] !== product.price[1] ?
+                                        product.variants.length === 0 ?
+                                            <>
+                                                <span className="new-price mr-1">${toDecimal(product.price[0])}</span>
+                                                <span className="old-price">${toDecimal(product.price[1])}</span>
+                                            </>
+                                            :
+                                            < span className="new-price">${toDecimal(product.price[0])} – ${toDecimal(product.price[1])}</span>
+                                        : <span className="new-price">${toDecimal(product.price[0])}</span>
+                                }
+                            </span>
+                        </ALink>
+                    ))
+                    }
+                    {search.length < 3 && search.length >= 1 ? <>{
+                        [1, 2, 3, 4].map((product, index) => (
+                            <ALink href="#" className="autocomplete-suggestion" key={`search-result-${index}`}>
+                                <LazyLoadImage src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjQTyBhMZCPlcC5iqPn_Os3ZeUQ0S3171eGA&s" width={40} height={40} alt="product" />
+                                <div className="search-name locading"></div>
+                                <span className="search-price">
+                                <span class="new-price mr-1" style={commonStyle}></span>
+                                <span class="old-price" style={commonStyle2}></span>
+
+                                </span>
+                            </ALink>
+                        ))
+
+
+                    }</> : <></>}
+
                 </div>
             </form>
         </div>

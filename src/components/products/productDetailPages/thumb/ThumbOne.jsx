@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 
 export default function ThumbOne( props ) {
+    debugger;
     const { index, product } = props;
     const [ pos, setPos ] = useState( 0 );
     const [ term, setTerm ] = useState( 4 );
@@ -199,7 +200,7 @@ export default function ThumbOne( props ) {
                 {
                     product.pictures.map( ( item, index ) => (
                         <div className={ `product-thumb` } key={ "thumb - " + index } onClick={ ( e ) => activeHandler( e, index ) }>
-                            <img src={ item.url } alt="product thumbnail"
+                            <img src={item.url} alt="product thumbnail"
                                 width="109" height="122" />
                         </div>
                     ) )

@@ -77,7 +77,7 @@ function ProductDefault() {
                         <div className="container skeleton-body vertical">
                             <div className="product product-single row mb-7">
                                 <div className="col-md-6 sticky-sidebar-wrapper">
-                                    <MediaOne product={ product[0] } />
+                                    <f product={ product[0] } />
                                 </div>
 
                                 <div className="col-md-6">

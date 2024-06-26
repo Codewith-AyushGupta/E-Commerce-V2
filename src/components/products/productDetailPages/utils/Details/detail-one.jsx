@@ -25,7 +25,6 @@ function DetailOne( props ) {
     const [ quantity, setQauntity ] = useState( 1 );
 
     let product = data.products.data[0];
-    debugger;
     // decide if the product is wishlisted
     let isWishlisted, colors = [], sizes = [];
     isWishlisted = wishlist.findIndex( item => item.slug === product.slug ) > -1 ? true : false;
@@ -176,12 +175,12 @@ function DetailOne( props ) {
                     product.price[ 0 ] !== product.price[ 1 ] ?
                         product.variants.length === 0 || ( product.variants.length > 0 && !product.variants[ 0 ].price ) ?
                             <>
-                                <ins className="new-price">${ toDecimal( product.price[ 0 ] ) }</ins>
-                                <del className="old-price">${ toDecimal( product.price[ 1 ] ) }</del>
+                                <ins className="new-price">&euro;{ toDecimal( product.price[ 0 ] ) }</ins>
+                                <del className="old-price">&euro;{ toDecimal( product.price[ 1 ] ) }</del>
                             </>
                             :
-                            < del className="new-price">${ toDecimal( product.price[ 0 ] ) } – ${ toDecimal( product.price[ 1 ] ) }</del>
-                        : <ins className="new-price">${ toDecimal( product.price[ 0 ] ) }</ins>
+                            < del className="new-price">&euro;{ toDecimal( product.price[ 0 ] ) } – &euro;{ toDecimal( product.price[ 1 ] ) }</del>
+                        : <ins className="new-price">&euro;{ toDecimal( product.price[ 0 ] ) }</ins>
                 }
             </div>
 
@@ -258,11 +257,11 @@ function DetailOne( props ) {
                                                     product.variants[ curIndex ].price ?
                                                         product.variants[ curIndex ].sale_price ?
                                                             <div className="product-price mb-0">
-                                                                <ins className="new-price">${ toDecimal( product.variants[ curIndex ].sale_price ) }</ins>
-                                                                <del className="old-price">${ toDecimal( product.variants[ curIndex ].price ) }</del>
+                                                                <ins className="new-price">&euro;{ toDecimal( product.variants[ curIndex ].sale_price ) }</ins>
+                                                                <del className="old-price">&euro;{ toDecimal( product.variants[ curIndex ].price ) }</del>
                                                             </div>
                                                             : <div className="product-price mb-0">
-                                                                <ins className="new-price">${ toDecimal( product.variants[ curIndex ].price ) }</ins>
+                                                                <ins className="new-price">&euro;{ toDecimal( product.variants[ curIndex ].price ) }</ins>
                                                             </div>
                                                         : ""
                                                 }
@@ -283,7 +282,7 @@ function DetailOne( props ) {
                             <div className="sticky-product-details">
                                 <figure className="product-image">
                                     <ALink href={ '/product/default/' + product.slug }>
-                                        <img src={  + product.pictures[ 0 ].url } width="90" height="90"
+                                        <img src={ product.pictures[ 0 ].url } width="90" height="90"
                                             alt="Product" />
                                     </ALink>
                                 </figure>
@@ -296,24 +295,24 @@ function DetailOne( props ) {
                                                     product.variants[ curIndex ].price ?
                                                         product.variants[ curIndex ].sale_price ?
                                                             <>
-                                                                <ins className="new-price">${ toDecimal( product.variants[ curIndex ].sale_price ) }</ins>
-                                                                <del className="old-price">${ toDecimal( product.variants[ curIndex ].price ) }</del>
+                                                                <ins className="new-price">&euro;{ toDecimal( product.variants[ curIndex ].sale_price ) }</ins>
+                                                                <del className="old-price">&euro;{ toDecimal( product.variants[ curIndex ].price ) }</del>
                                                             </>
                                                             :
                                                             <>
-                                                                <ins className="new-price">${ toDecimal( product.variants[ curIndex ].price ) }</ins>
+                                                                <ins className="new-price">&euro;{ toDecimal( product.variants[ curIndex ].price ) }</ins>
                                                             </>
                                                         : ""
                                                     :
                                                     product.price[ 0 ] !== product.price[ 1 ] ?
                                                         product.variants.length === 0 ?
                                                             <>
-                                                                <ins className="new-price">${ toDecimal( product.price[ 0 ] ) }</ins>
-                                                                <del className="old-price">${ toDecimal( product.price[ 1 ] ) }</del>
+                                                                <ins className="new-price">&euro;{ toDecimal( product.price[ 0 ] ) }</ins>
+                                                                <del className="old-price">&euro;{ toDecimal( product.price[ 1 ] ) }</del>
                                                             </>
                                                             :
-                                                            < del className="new-price">${ toDecimal( product.price[ 0 ] ) } – ${ toDecimal( product.price[ 1 ] ) }</del>
-                                                        : <ins className="new-price">${ toDecimal( product.price[ 0 ] ) }</ins>
+                                                            < del className="new-price">&euro;{ toDecimal( product.price[ 0 ] ) } – &euro;{ toDecimal( product.price[ 1 ] ) }</del>
+                                                        : <ins className="new-price">&euro;{ toDecimal( product.price[ 0 ] ) }</ins>
                                             }
                                         </div>
 

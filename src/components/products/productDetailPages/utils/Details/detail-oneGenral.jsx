@@ -284,7 +284,7 @@ function DetailOne( props ) {
                             <div className="sticky-product-details">
                                 <figure className="product-image">
                                     <ALink href={ '/product/default/' + product.slug }>
-                                        <img src={  + product.pictures[ 0 ].url } width="90" height="90"
+                                        <img src={product.pictures[ 0 ].url} width="90" height="90"
                                             alt="Product" />
                                     </ALink>
                                 </figure>
